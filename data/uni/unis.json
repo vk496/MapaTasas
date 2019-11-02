@@ -837,13 +837,6 @@
                 "tasas2": "",
                 "tasas3": "",
                 "tasas4": ""
-            },
-            "tasas_2015": {
-                "url": "",
-                "tasas1": "",
-                "tasas2": "",
-                "tasas3": "",
-                "tasas4": ""
             }
         }, {
             "siglas": "usal-salamanca",
@@ -1892,13 +1885,6 @@
                 "tasas3": "38",
                 "tasas4": "38"
             },
-            "tasas_2015": {
-                "url": "",
-                "tasas1": "75",
-                "tasas2": "",
-                "tasas3": "",
-                "tasas4": ""
-            },
             "observaciones": ""
         }, {
             "siglas": "uax",
@@ -1982,13 +1968,6 @@
             },
             "tasas_2015": {
                 "url": "",
-                "tasas1": "75",
-                "tasas2": "",
-                "tasas3": "",
-                "tasas4": ""
-            },
-            "tasas_2015": {
-                "url": "",
                 "tasas1": "27.9",
                 "tasas2": "51.42",
                 "tasas3": "96.43",
@@ -2038,13 +2017,6 @@
                 "tasas2": "",
                 "tasas3": "",
                 "tasas4": ""
-            },
-            "tasas_2015": {
-                "url": "",
-                "tasas1": "75",
-                "tasas2": "",
-                "tasas3": "",
-                "tasas4": ""
             }
         }, {
             "siglas": "uemc",
@@ -2077,13 +2049,6 @@
                 "tasas4": ""
             },
             "tasas_2014": {
-                "url": "",
-                "tasas1": "",
-                "tasas2": "",
-                "tasas3": "",
-                "tasas4": ""
-            },
-            "tasas_2015": {
                 "url": "",
                 "tasas1": "",
                 "tasas2": "",
@@ -2137,13 +2102,6 @@
             "tasas_2015": {
                 "url": "http://web.archive.org/web/20150807164216/http://recursos.ufv.es/docs/precios_grados_ufv_2015-16.pdf",
                 "tasas1": "115",
-                "tasas2": "",
-                "tasas3": "",
-                "tasas4": ""
-            },
-            "tasas_2015": {
-                "url": "",
-                "tasas1": "75",
                 "tasas2": "",
                 "tasas3": "",
                 "tasas4": ""
@@ -3075,13 +3033,6 @@
                 "tasas2": "",
                 "tasas3": "",
                 "tasas4": ""
-            },
-            "tasas_2015": {
-                "url": "",
-                "tasas1": "",
-                "tasas2": "",
-                "tasas3": "",
-                "tasas4": ""
             }
         }, {
             "siglas": "udl-politecnica",
@@ -3123,13 +3074,6 @@
             "tasas_2015": {
                 "url": "",
                 "tasas1": "39.53",
-                "tasas2": "",
-                "tasas3": "",
-                "tasas4": ""
-            },
-            "tasas_2015": {
-                "url": "",
-                "tasas1": "",
                 "tasas2": "",
                 "tasas3": "",
                 "tasas4": ""
