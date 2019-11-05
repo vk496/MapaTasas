@@ -519,58 +519,6 @@ unis:
                 tasas2: 34.08
                 tasas3: 73.86
                 tasas4: 102.24
-- siglas: null
-  nombre: null
-  tipo: null
-  provincia: null
-  web: null
-  lugares:
-    - campus: null
-      titulaciones:
-        - tipo: grado
-          centro: null
-          titulación: 
-          tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
 - siglas: usj
   nombre: Universidad de San Jorge
   tipo: pública
@@ -966,11 +914,6 @@ unis:
             - año: 2013
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2014
               tipo: precio_por_crédito
               fuente: https://web.archive.org/web/20150426144207/http://www.upsam.com/index.php?option=com_content&view=article&id=104&Itemid=232
@@ -982,11 +925,6 @@ unis:
             - año: 2015
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: usal-salamanca
   nombre: Universidad de Salamanca
   tipo: pública
@@ -1715,58 +1653,6 @@ unis:
                 tasas2: 19.3
                 tasas3: 31.21
                 tasas4: 39.79
-- siglas: null
-  nombre: null
-  tipo: null
-  provincia: null
-  web: null
-  lugares:
-    - campus: null
-      titulaciones:
-        - tipo: grado
-          centro: null
-          titulación: 
-          tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
 - siglas: ucm
   nombre: Universidad Complutense de Madrid
   tipo: pública
@@ -2131,58 +2017,6 @@ unis:
                 tasas2: 51.42
                 tasas3: 96.43
                 tasas4: 128.57
-- siglas: null
-  nombre: null
-  tipo: null
-  provincia: null
-  web: null
-  lugares:
-    - campus: null
-      titulaciones:
-        - tipo: grado
-          centro: null
-          titulación: 
-          tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: null
-              cantidades:
-                tasas1: null
-                tasas2: null
-                tasas3: null
-                tasas4: null
 - siglas: ceu
   nombre: Universidad CEU San Pablo
   tipo: privada
@@ -2198,27 +2032,12 @@ unis:
             - año: 2011
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2012
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2013
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://web.archive.org/web/20140702194618/http://www.uspceu.com/es/estudios/admision-y-matricula/honorarios-y-precios/eps.php
@@ -2302,43 +2121,20 @@ unis:
             - año: 2011
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2012
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2013
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2014
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: 
               cantidades:
                 tasas1: 75
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: ceu-uch
   nombre: Universidad Cardenal Herrera
   tipo: privada
@@ -2353,36 +2149,18 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://web.archive.org/web/20140726005431/http://www.uchceu.es/futuro_alumno/documentos/honorarios_grado/honorarios_grado_valencia.pdf
               cantidades:
                 tasas1: 80
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: 
@@ -2406,43 +2184,22 @@ unis:
             - año: 2011
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2012
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2013
               tipo: precio_por_crédito
               fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2014
               tipo: precio_por_crédito
               fuente: https://web.archive.org/web/20150501003757/http://universidadeuropea.es/myfiles/pageposts/honorarios_primer_curso.pdf
               cantidades:
                 tasas1: 168
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: https://web.archive.org/web/20160209213007/http://universidadeuropea.es/myfiles/pageposts/honorarios_segundo_curso_y_superiores.pdf
               cantidades:
                 tasas1: 170.55
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: uemc
   nombre: Universidad Europea Miguel de Cervantes
   tipo: privada
@@ -2457,44 +2214,21 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2015
               tipo: precio_por_crédito
               fuente: http://www.uemc.es/documents/download/849
               cantidades:
                 tasas1: 94.8
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: ufv
   nombre: Universidad Francisco de Vitoria
   tipo: privada
@@ -2512,41 +2246,26 @@ unis:
               fuente: http://web.archive.org/web/20111110161017/http://www.ufv.es/docs/precios2011.pdf
               cantidades:
                 tasas1: 101.25
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2012
               tipo: precio_por_crédito
               fuente: http://web.archive.org/web/20130512151949/http://recursos.ufv.es/docs/precios2012-2013.pdf
               cantidades:
                 tasas1: 103.5
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2013
               tipo: precio_por_crédito
               fuente: http://web.archive.org/web/20130809004359/http://recursos.ufv.es/docs/precios2013-2014.pdf
               cantidades:
                 tasas1: 106.875
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://recursos.ufv.es/docs/precios_grados_ufv_2014-15.pdf
               cantidades:
                 tasas1: 115
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: http://web.archive.org/web/20150807164216/http://recursos.ufv.es/docs/precios_grados_ufv_2015-16.pdf
               cantidades:
                 tasas1: 115
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: um
   nombre: Universidad de Murcia
   tipo: pública
@@ -2925,20 +2644,10 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
               fuente: 
@@ -2952,9 +2661,6 @@ unis:
               fuente: http://www.unir.net/como-matricularse.aspx#g3
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: 
@@ -3292,41 +2998,26 @@ unis:
               fuente: 
               cantidades:
                 tasas1: 21.46
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2012
               tipo: precio_por_crédito
               fuente: https://www.upc.edu/sga/matricula-e/fitxers-de-matricula/decreto-de-precios-2012-2013
               cantidades:
                 tasas1: 35.77
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2013
               tipo: precio_por_crédito
               fuente: 
               cantidades:
                 tasas1: 35.77
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2014
               tipo: precio_por_crédito
               fuente: https://www.upc.edu/sga/matricula/preus
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: http://www.ub.edu/acad/matricula/decreto.pdf
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: ucav
   nombre: Universidad Católica de Santa Teresa de Jesús
   tipo: privada
@@ -3341,44 +3032,19 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
 - siglas: uab
   nombre: Universidad Autónoma de Barcelona
   tipo: pública
@@ -3393,28 +3059,13 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://www.uab.cat/web/estudiar/grau/matricula/resum-dels-preus-1345662202164.html
@@ -3428,9 +3079,6 @@ unis:
               fuente: http://www.uab.cat/web/estudiar/grau/matricula/resum-dels-preus-1345662202164.html
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: uoc
   nombre: Universidad Obierta de Cataluña
   tipo: pública
@@ -3445,28 +3093,13 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: 
@@ -3480,9 +3113,6 @@ unis:
               fuente: 
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: ub
   nombre: Universidad de Barcelona
   tipo: pública
@@ -3497,28 +3127,13 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://www.ub.edu/acad/es/matricula/precios.html
@@ -3532,9 +3147,6 @@ unis:
               fuente: http://www.ub.edu/acad/es/matricula/precios.html
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: ud
   nombre: Universidad de Deusto
   tipo: privada
@@ -3601,44 +3213,23 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: 39.53
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: 39.53
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: udl-politecnica
   nombre: Universidad de Lérida
   tipo: pública
@@ -3653,44 +3244,23 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: 
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: 
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: mu
   nombre: Universidad de Mondragón
   tipo: privada
@@ -3705,28 +3275,13 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://www.mondragon.edu/bin/tit/normativa-grado/normativaacademica.pdf
@@ -3737,12 +3292,7 @@ unis:
                 tasas4: 119.40
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
 - siglas: uned
   nombre: Universidad Nacional de Educación a Distancia
   tipo: pública
@@ -3809,44 +3359,21 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://www.unir.net/como-matricularse.aspx#g3
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
 - siglas: urv
   nombre: Universidad Rovira i Virgili
   tipo: pública
@@ -3864,41 +3391,26 @@ unis:
               fuente: 
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2012
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2012/08/14/pdfs/BOE-A-2012-10852.pdf
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2013
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2013/08/08/pdfs/BOE-A-2013-8800.pdf
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: url
   nombre: Universidad Ramón Llull
   tipo: privada
@@ -3913,44 +3425,27 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2012/08/14/pdfs/BOE-A-2012-10852.pdf
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2013
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2013/08/08/pdfs/BOE-A-2013-8800.pdf
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: upf
   nombre: Universidad Pompeu Fabra
   tipo: privada
@@ -3965,44 +3460,27 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2012/08/14/pdfs/BOE-A-2012-10852.pdf
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2013
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2013/08/08/pdfs/BOE-A-2013-8800.pdf
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2015
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
               cantidades:
                 tasas1: 39.53
-                tasas2: 
-                tasas3: 
-                tasas4: 
 - siglas: ue-v
   nombre: Universidad Europea de Valencia
   tipo: privada
@@ -4017,28 +3495,17 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
-              cantidades:
-                tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2012/08/14/pdfs/BOE-A-2012-10852.pdf
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2013
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2013/08/08/pdfs/BOE-A-2013-8800.pdf
               cantidades:
                 tasas1: 
-                tasas2: 
-                tasas3: 
-                tasas4: 
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
