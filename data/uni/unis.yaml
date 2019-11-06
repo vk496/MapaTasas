@@ -1118,7 +1118,7 @@ unis:
                 tasas4: 24.86
             - año: 2012
               tipo: precio_por_crédito
-              fuente: http://www.gobcan.es/boc/2012/141/001.html
+              fuente: http://sede.gobcan.es/boc/boc-a-2012-141-3709.pdf
               cantidades:
                 tasas1: 18.95
                 tasas2: 37.90
@@ -1134,7 +1134,7 @@ unis:
                 tasas4: 113.70
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.gobcan.es/boc/2014/132/001.html
+              fuente: http://sede.gobcan.es/boc/boc-a-2014-132-3020.pdf
               cantidades:
                 tasas1: 18.95
                 tasas2: 34.11
@@ -1142,12 +1142,44 @@ unis:
                 tasas4: 85.28
             - año: 2015
               tipo: precio_por_crédito
-              fuente: https://www2.ulpgc.es/hege/almacen/download/7105/7105049/decreto_precios_publicos.pdf
+              fuente: http://sede.gobcan.es/boc/boc-a-2015-131-3196.pdf
               cantidades:
                 tasas1: 18.95
                 tasas2: 34.11
                 tasas3: 65.70
                 tasas4: 85.28
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://sede.gobcan.es/boc/boc-a-2016-135-2373.pdf
+              cantidades:
+                tasas1: 18.95
+                tasas2: 34.11
+                tasas3: 65.70
+                tasas4: 85.28
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://sede.gobcan.es/boc/boc-a-2017-134-3418.pdf
+              cantidades:
+                tasas1: 17.43
+                tasas2: 34.11
+                tasas3: 65.70
+                tasas4: 85.28
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://sede.gobcan.es/boc/boc-a-2018-122-3019.pdf
+              cantidades:
+                tasas1: 15.69
+                tasas2: 28.24
+                tasas3: 53.22
+                tasas4: 69.08
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://sede.gobcan.es/boc/boc-a-2019-101-2637.pdf
+              cantidades:
+                tasas1: 14.59
+                tasas2: 26.26
+                tasas3: 49.49
+                tasas4: 64.24
 - siglas: ull
   nombre: Universidad de La Laguna
   tipo: pública
@@ -1170,7 +1202,7 @@ unis:
                 tasas4: 24.86
             - año: 2012
               tipo: precio_por_crédito
-              fuente: http://www.gobcan.es/boc/2012/141/001.html
+              fuente: http://sede.gobcan.es/boc/boc-a-2012-141-3709.pdf
               cantidades:
                 tasas1: 18.95
                 tasas2: 37.90
@@ -1186,7 +1218,7 @@ unis:
                 tasas4: 113.70
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.gobcan.es/boc/2014/132/001.html
+              fuente: http://sede.gobcan.es/boc/boc-a-2014-132-3020.pdf
               cantidades:
                 tasas1: 18.95
                 tasas2: 34.11
@@ -1194,12 +1226,44 @@ unis:
                 tasas4: 85.28
             - año: 2015
               tipo: precio_por_crédito
-              fuente: https://www2.ulpgc.es/hege/almacen/download/7105/7105049/decreto_precios_publicos.pdf
+              fuente: http://sede.gobcan.es/boc/boc-a-2015-131-3196.pdf
               cantidades:
                 tasas1: 18.95
                 tasas2: 34.11
                 tasas3: 65.70
                 tasas4: 85.28
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://sede.gobcan.es/boc/boc-a-2016-135-2373.pdf
+              cantidades:
+                tasas1: 18.95
+                tasas2: 34.11
+                tasas3: 65.70
+                tasas4: 85.28
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://sede.gobcan.es/boc/boc-a-2017-134-3418.pdf
+              cantidades:
+                tasas1: 17.43
+                tasas2: 34.11
+                tasas3: 65.70
+                tasas4: 85.28
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://sede.gobcan.es/boc/boc-a-2018-122-3019.pdf
+              cantidades:
+                tasas1: 15.69
+                tasas2: 28.24
+                tasas3: 53.22
+                tasas4: 69.08
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://sede.gobcan.es/boc/boc-a-2019-101-2637.pdf
+              cantidades:
+                tasas1: 14.59
+                tasas2: 26.26
+                tasas3: 49.49
+                tasas4: 64.24
 - siglas: upsa-salamanca
   nombre: Universidad Pontificia de Salamanca
   tipo: privada
@@ -1230,7 +1294,7 @@ unis:
                 tasas4: 46
             - año: 2013
               tipo: precio_por_crédito
-              fuente: https://www.upsa.es/admision/admision-y-matricula/pdf/tasas_grados_2013-14.pdf
+              fuente: https://web.archive.org/web/20140720103947/https://www.upsa.es/admision/admision-y-matricula/pdf/tasas_grados_2013-14.pdf
               cantidades:
                 tasas1: 97
                 tasas2: 116.40
@@ -1238,7 +1302,7 @@ unis:
                 tasas4: 47
             - año: 2014
               tipo: precio_por_crédito
-              fuente: https://www.upsa.es/admision/admision-y-matricula/pdf/tasas_grado_14_15.pdf
+              fuente: https://web.archive.org/web/20140721070404/http://upsa.es/admision/admision-y-matricula/pdf/tasas_grado_14_15.pdf
               cantidades:
                 tasas1: 97
                 tasas2: 116.40
@@ -1246,12 +1310,44 @@ unis:
                 tasas4: 48
             - año: 2015
               tipo: precio_por_crédito
-              fuente: https://www.upsa.es/admision/admision-y-matricula/pdf/tasas_grado_15_16.pdf
+              fuente: https://web.archive.org/web/20150319023734/http://www.upsa.es/admision/admision-y-matricula/pdf/tasas_grado_15_16.pdf
               cantidades:
                 tasas1: 97
                 tasas2: 116.40
                 tasas3: 50
                 tasas4: 50
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://web.archive.org/web/20170429081200/https://www.upsa.es/admision/admision-y-matricula/pdf/tasas_grado_16_17.pdf
+              cantidades:
+                tasas1: 97
+                tasas2: 117
+                tasas3: 50
+                tasas4: 50
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://web.archive.org/web/20170914023759/http://www.upsa.es/admision-y-matricula/pdf/precios-grado/tasas-grado-17-18.pdf
+              cantidades:
+                tasas1: 98
+                tasas2: 118
+                tasas3: 128
+                tasas4: 51
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://web.archive.org/web/20191106212150/https://www.upsa.es/estudios/docs/tasas-academicas/tasas-grado-18-19.pdf
+              cantidades:
+                tasas1: 98
+                tasas2: 118
+                tasas3: 51
+                tasas4: 51
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://web.archive.org/web/20191106212439/https://www.upsa.es/estudios/docs/tasas-academicas/2019-2020/tasas-grado-19-20.pdf
+              cantidades:
+                tasas1: 98
+                tasas2: 118
+                tasas3: 52
+                tasas4: 52
 - siglas: upsa-madrid
   nombre: Universidad Pontificia de Salamanca
   tipo: privada
@@ -1269,17 +1365,17 @@ unis:
               fuente: https://web.archive.org/web/20110806155612/http://www.upsam.com/index.php?option=com_content&view=article&id=104&Itemid=232
               cantidades:
                 tasas1: 69.8
-                tasas2: 50
-                tasas3: 50
-                tasas4: 50
+                tasas2: 67.8
+                tasas3: 67.8
+                tasas4: 67.8
             - año: 2012
               tipo: precio_por_crédito
               fuente: https://web.archive.org/web/20120620155941/http://www.upsam.com/index.php?option=com_content&view=article&id=104&Itemid=232
               cantidades:
                 tasas1: 76.83
-                tasas2: 52
-                tasas3: 50
-                tasas4: 50
+                tasas2: 76.83
+                tasas3: 76.83
+                tasas4: 76.83
             - año: 2013
               tipo: precio_por_crédito
               fuente: 
