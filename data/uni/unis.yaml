@@ -768,7 +768,7 @@ unis:
                 tasas2: 34.08
                 tasas3: 73.86
                 tasas4: 102.24
-            
+
 - siglas: usj
   nombre: Universidad de San Jorge
   tipo: privada
@@ -1274,7 +1274,7 @@ unis:
     - campus: Campus de Salamanca
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1358,7 +1358,7 @@ unis:
     - campus: Campus de Madrid
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1379,7 +1379,7 @@ unis:
                 tasas4: 76.83
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: https://web.archive.org/web/20150426144207/http://www.upsam.com/index.php?option=com_content&view=article&id=104&Itemid=232
@@ -1390,7 +1390,7 @@ unis:
                 tasas4: 53
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
 - siglas: usal-salamanca
   nombre: Universidad de Salamanca
   tipo: pública
@@ -2180,7 +2180,7 @@ unis:
               tipo: precio_por_crédito
               fuente: http://doe.juntaex.es/pdfs/doe/2013/1410o/13040141.pdf
               cantidades:
-                tasas1: 16.83    
+                tasas1: 16.83
                 tasas2: 33.66
                 tasas3: 72.93
                 tasas4: 100.99
@@ -2264,7 +2264,7 @@ unis:
               tipo: precio_por_crédito
               fuente: http://doe.juntaex.es/pdfs/doe/2013/1410o/13040141.pdf
               cantidades:
-                tasas1: 16.83    
+                tasas1: 16.83
                 tasas2: 33.66
                 tasas3: 72.93
                 tasas4: 100.99
@@ -2941,18 +2941,18 @@ unis:
     - campus: Campus de Madrid
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://web.archive.org/web/20140702194618/http://www.uspceu.com/es/estudios/admision-y-matricula/honorarios-y-precios/eps.php
@@ -2978,7 +2978,7 @@ unis:
     - campus: Campus de Collado Villalba
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3030,24 +3030,24 @@ unis:
     - campus: null
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 75
 - siglas: ceu-uch
@@ -3059,7 +3059,7 @@ unis:
     - campus: Campus de Moncada
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3078,7 +3078,7 @@ unis:
                 tasas1: 80
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 27.9
                 tasas2: 51.42
@@ -3093,18 +3093,18 @@ unis:
     - campus: Campus de Villaviciosa de Odón
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: https://web.archive.org/web/20150501003757/http://universidadeuropea.es/myfiles/pageposts/honorarios_primer_curso.pdf
@@ -3121,10 +3121,10 @@ unis:
   provincia: Valladolid
   web: http://www.uemc.es/grados/grado-en-ingenieria-informatica
   lugares:
-    - campus: 
+    - campus:
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3153,7 +3153,7 @@ unis:
     - campus: Campus de la Universidad Francisco de Vitoria
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3233,6 +3233,38 @@ unis:
                 tasas2: 33.56
                 tasas3: 72.71
                 tasas4: 100.68
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://www.um.es/documents/877924/3500386/orden-precios-publicos.pdf/afe946a3-9e72-459c-8482-551c9ccadb01
+              cantidades:
+                tasas1: 16.78
+                tasas2: 33.56
+                tasas3: 72.71
+                tasas4: 100.68
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.borm.es/borm/documento?obj=anu&id=759902
+              cantidades:
+                tasas1: 16.78
+                tasas2: 33.56
+                tasas3: 72.71
+                tasas4: 100.68
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.borm.es/borm/documento?obj=anu&id=769763
+              cantidades:
+                tasas1: 16.78
+                tasas2: 33.56
+                tasas3: 72.71
+                tasas4: 100.68
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.um.es/documents/1083928/14319353/precios+p%C3%BAblicos+2019-20-1.pdf/b6492502-d75e-47ae-b701-38fc994c9683
+              cantidades:
+                tasas1: 16.78
+                tasas2: 33.56
+                tasas3: 72.71
+                tasas4: 100.68
 - siglas: ucam
   nombre: Universidad Católica San Antonio de Murcia
   tipo: privada
@@ -3294,7 +3326,7 @@ unis:
     - campus: Campus de Álava
       titulaciones:
         - tipo: grado
-          centro: Escuela Universitaria de Ingeniería de Vitoria 
+          centro: Escuela Universitaria de Ingeniería de Vitoria
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3337,6 +3369,38 @@ unis:
                 tasas2: 27.63
                 tasas3: 41.59
                 tasas4: 41.59
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 42.53
+                tasas4: 58.87
 - siglas: ehu-bilbao
   nombre: Universidad del País Vasco (Campus de Bilbao)
   tipo: pública
@@ -3565,7 +3629,7 @@ unis:
               fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 21.21
                 tasas2: 42.43
@@ -3576,7 +3640,7 @@ unis:
               fuente: http://www.unir.net/como-matricularse.aspx#g3
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 21.21
                 tasas2: 42.43
@@ -3897,18 +3961,18 @@ unis:
 - siglas: upc
   nombre: Universidad Politécnica de Cataluña
   tipo: pública
-  provincia: 
-  web: 
+  provincia:
+  web:
   lugares:
     - campus: null
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 21.46
             - año: 2012
@@ -3918,7 +3982,7 @@ unis:
                 tasas1: 35.77
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 35.77
             - año: 2014
@@ -3935,7 +3999,7 @@ unis:
   nombre: Universidad Católica de Santa Teresa de Jesús
   tipo: privada
   provincia: Ávila
-  web: 
+  web:
   lugares:
     - campus: Campus de Ávila
       titulaciones:
@@ -3962,7 +4026,7 @@ unis:
   nombre: Universidad Autónoma de Barcelona
   tipo: pública
   provincia: Barcelona
-  web: 
+  web:
   lugares:
     - campus: null
       titulaciones:
@@ -3995,13 +4059,13 @@ unis:
 - siglas: uoc
   nombre: Universidad Obierta de Cataluña
   tipo: pública
-  provincia: 
-  web: 
+  provincia:
+  web:
   lugares:
     - campus: null
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -4015,7 +4079,7 @@ unis:
               fuente:
             - año: 2014
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 39.53
                 tasas2: 27.36
@@ -4023,14 +4087,14 @@ unis:
                 tasas4: 27.36
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 39.53
 - siglas: ub
   nombre: Universidad de Barcelona
   tipo: pública
   provincia: Barcelona
-  web: 
+  web:
   lugares:
     - campus: null
       titulaciones:
@@ -4074,13 +4138,13 @@ unis:
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2012
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2013
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://www.ingenieria.deusto.es/cs/Satellite/ingenieria/es/ingenieria-informatica/ingenieria-informatica/programa?idPest=1340018657941
@@ -4091,7 +4155,7 @@ unis:
                 tasas4: 41.59
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 19.19
                 tasas2: 27.63
@@ -4147,12 +4211,12 @@ unis:
               fuente:
             - año: 2014
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 39.53
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 39.53
 - siglas: mu
@@ -4190,18 +4254,18 @@ unis:
 - siglas: uned
   nombre: Universidad Nacional de Educación a Distancia
   tipo: pública
-  provincia: 
-  web: 
+  provincia:
+  web:
   lugares:
     - campus: null
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 20.29
                 tasas2: 26.38
@@ -4241,13 +4305,13 @@ unis:
 - siglas: UI1
   nombre: Universidad Isabel I de Castilla
   tipo: privada
-  provincia: 
+  provincia:
   web: http://www.ui1.es/oferta-academica/grado-en-ingenieria-informatica
   lugares:
-    - campus: 
+    - campus:
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -4269,17 +4333,17 @@ unis:
   nombre: Universidad Rovira i Virgili
   tipo: pública
   provincia: Barcelona
-  web: 
+  web:
   lugares:
     - campus: null
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: 
+              fuente:
               cantidades:
                 tasas1: 39.53
             - año: 2012
@@ -4302,12 +4366,12 @@ unis:
   nombre: Universidad Ramón Llull
   tipo: privada
   provincia: Barcelona
-  web: 
+  web:
   lugares:
     - campus: null
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -4333,12 +4397,12 @@ unis:
   nombre: Universidad Pompeu Fabra
   tipo: privada
   provincia: Barcelona
-  web: 
+  web:
   lugares:
     - campus: null
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -4364,12 +4428,12 @@ unis:
   nombre: Universidad Europea de Valencia
   tipo: privada
   provincia: Valencia
-  web: 
+  web:
   lugares:
     - campus: null
       titulaciones:
         - tipo: grado
-          centro: 
+          centro:
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
