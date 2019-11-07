@@ -1,3 +1,4 @@
+# Nota: ojito con los boletines que publican los precios. A veces esos precios son erróneos y sacan otro boletín para corregirlo
 unis:
 - siglas: ual
   nombre: Universidad de Almería
@@ -154,14 +155,14 @@ unis:
 - siglas: uma
   nombre: Universidad de Málaga
   tipo: pública
-  provincia: Malaga
+  provincia: Málaga
   web: https://www.uma.es/etsi-informatica/
   lugares:
     - campus: Campus de Teatinos
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -382,7 +383,7 @@ unis:
 - siglas: uca
   nombre: Universidad de Cádiz
   tipo: pública
-  provincia: Cadiz
+  provincia: Cádiz
   web: https://esingenieria.uca.es/docencia/grados/gii/
   lugares:
     - campus: Campus Universitario de Puerto Real
@@ -458,7 +459,7 @@ unis:
 - siglas: uco
   nombre: Universidad de Córdoba
   tipo: pública
-  provincia: Cordoba
+  provincia: Córdoba
   web: https://www.uco.es/organiza/centros/eps/es/titulaciones/gr-ing-informatica
   lugares:
     - campus: Campus Rabanales
@@ -534,7 +535,7 @@ unis:
 - siglas: uja
   nombre: Universidad de Jaén
   tipo: pública
-  provincia: Jaen
+  provincia: Jaén
   web: http://grados.ujaen.es/node/11/presentacion
   lugares:
     - campus: Campus Las Lagunillas de Jaén
@@ -1015,14 +1016,14 @@ unis:
 - siglas: uib
   nombre: Universidad de las Islas Baleares
   tipo: pública
-  provincia: Baleares
+  provincia: Illes Balears
   web: http://estudis.uib.es/es/grau/informatica/GEIN-P/
   lugares:
     - campus: Campus de Palma de Mallorca
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1106,7 +1107,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1190,7 +1191,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería en Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1274,7 +1275,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1358,7 +1359,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1400,7 +1401,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Facultad de Ciencias
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1428,7 +1429,7 @@ unis:
                 tasas4: 123.52
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.tributos.jcyl.es/web/jcyl/binarios/449/965/VERSION%20IMPRIMIBLE%20Decreto%2025-2012.pdf?blobheader=application/pdf;charset=UTF-8
+              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
               cantidades:
                 tasas1: 27.72
                 tasas2: 41.59
@@ -1436,9 +1437,41 @@ unis:
                 tasas4: 124.76
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://campus.usal.es/~gesacad/coordinacion/normativaproce/tasasbocyl.PDF
+              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
               cantidades:
                 tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
+              cantidades:
+                tasas1: 26.33
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
+              cantidades:
+                tasas1: 21.01
                 tasas2: 41.59
                 tasas3: 90.10
                 tasas4: 124.76
@@ -1452,7 +1485,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior de Zamora
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1480,7 +1513,7 @@ unis:
                 tasas4: 123.52
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.tributos.jcyl.es/web/jcyl/binarios/449/965/VERSION%20IMPRIMIBLE%20Decreto%2025-2012.pdf?blobheader=application/pdf;charset=UTF-8
+              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
               cantidades:
                 tasas1: 27.72
                 tasas2: 41.59
@@ -1488,9 +1521,41 @@ unis:
                 tasas4: 124.76
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://campus.usal.es/~gesacad/coordinacion/normativaproce/tasasbocyl.PDF
+              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
               cantidades:
                 tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
+              cantidades:
+                tasas1: 26.33
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
+              cantidades:
+                tasas1: 21.01
                 tasas2: 41.59
                 tasas3: 90.10
                 tasas4: 124.76
@@ -1504,7 +1569,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1532,7 +1597,7 @@ unis:
                 tasas4: 123.52
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.tributos.jcyl.es/web/jcyl/binarios/449/965/VERSION%20IMPRIMIBLE%20Decreto%2025-2012.pdf?blobheader=application/pdf;charset=UTF-8
+              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
               cantidades:
                 tasas1: 27.72
                 tasas2: 41.59
@@ -1540,9 +1605,41 @@ unis:
                 tasas4: 124.76
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://campus.usal.es/~gesacad/coordinacion/normativaproce/tasasbocyl.PDF
+              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
               cantidades:
                 tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
+              cantidades:
+                tasas1: 26.33
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
+              cantidades:
+                tasas1: 21.01
                 tasas2: 41.59
                 tasas3: 90.10
                 tasas4: 124.76
@@ -1556,7 +1653,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Universitaria de Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1584,7 +1681,7 @@ unis:
                 tasas4: 123.52
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.tributos.jcyl.es/web/jcyl/binarios/449/965/VERSION%20IMPRIMIBLE%20Decreto%2025-2012.pdf?blobheader=application/pdf;charset=UTF-8
+              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
               cantidades:
                 tasas1: 27.72
                 tasas2: 41.59
@@ -1592,23 +1689,55 @@ unis:
                 tasas4: 124.76
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://campus.usal.es/~gesacad/coordinacion/normativaproce/tasasbocyl.PDF
+              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
               cantidades:
                 tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
+              cantidades:
+                tasas1: 26.33
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
+              cantidades:
+                tasas1: 21.01
                 tasas2: 41.59
                 tasas3: 90.10
                 tasas4: 124.76
 - siglas: ule
   nombre: Universidad de León
   tipo: pública
-  provincia: Leon
+  provincia: León
   web: http://www.unileon.es/estudiantes/estudiantes-grado/oferta-de-estudios/grado-en-ingenieria-informatica
   lugares:
     - campus: Campus de León
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingenierías Industrial e Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1636,7 +1765,7 @@ unis:
                 tasas4: 123.52
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.tributos.jcyl.es/web/jcyl/binarios/449/965/VERSION%20IMPRIMIBLE%20Decreto%2025-2012.pdf?blobheader=application/pdf;charset=UTF-8
+              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
               cantidades:
                 tasas1: 27.72
                 tasas2: 41.59
@@ -1644,9 +1773,41 @@ unis:
                 tasas4: 124.76
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://campus.usal.es/~gesacad/coordinacion/normativaproce/tasasbocyl.PDF
+              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
               cantidades:
                 tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
+              cantidades:
+                tasas1: 26.33
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
+              cantidades:
+                tasas1: 21.01
                 tasas2: 41.59
                 tasas3: 90.10
                 tasas4: 124.76
@@ -1660,7 +1821,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1688,7 +1849,7 @@ unis:
                 tasas4: 123.52
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.tributos.jcyl.es/web/jcyl/binarios/449/965/VERSION%20IMPRIMIBLE%20Decreto%2025-2012.pdf?blobheader=application/pdf;charset=UTF-8
+              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
               cantidades:
                 tasas1: 27.72
                 tasas2: 41.59
@@ -1696,9 +1857,41 @@ unis:
                 tasas4: 124.76
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://campus.usal.es/~gesacad/coordinacion/normativaproce/tasasbocyl.PDF
+              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
               cantidades:
                 tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
+              cantidades:
+                tasas1: 26.33
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
+              cantidades:
+                tasas1: 21.01
                 tasas2: 41.59
                 tasas3: 90.10
                 tasas4: 124.76
@@ -1712,11 +1905,11 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Facultad de Ciencias
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: http://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=212694
+              fuente: https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=212694
               cantidades:
                 tasas1: 14.54
                 tasas2: 21.07
@@ -1724,15 +1917,15 @@ unis:
                 tasas4: 30.72
             - año: 2012
               tipo: precio_por_crédito
-              fuente: http://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=232759
+              fuente: https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=232759
               cantidades:
-                tasas1: 16.12
-                tasas2: 32.24
-                tasas3: 69.85
-                tasas4: 96.72
+                tasas1: 15.06
+                tasas2: 30.13
+                tasas3: 65.27
+                tasas4: 90.38
             - año: 2013
               tipo: precio_por_crédito
-              fuente: https://www.unican.es/NR/rdonlyres/0001623e/pasasttgychmdinfiszmpmueuibjyykj/BOCPRECIOSP%C3%9ABLICOS26JUL13.pdf
+              fuente: https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=252004
               cantidades:
                 tasas1: 15.56
                 tasas2: 31.12
@@ -1740,20 +1933,53 @@ unis:
                 tasas4: 93.36
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.cantabrialiberal.com/noticia.php?id=246282&noticia=Catalu%F1a%20mantendr%E1%20congeladas%20las%20tasas%20universitarias%20%22durante%20un%20tiempo%20largo%22
+              fuente: https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=271483
               cantidades:
-                tasas1: 13.93
-                tasas2: 19.3
-                tasas3: 31.21
-                tasas4: 39.79
+                tasas1: 15.56
+                tasas2: 31.12
+                tasas3: 67.42
+                tasas4: 93.36
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://web.unican.es/admision/Documents/Precios%20y%20tasas/Precios%20Grado%20%202015-2016.pdf
+              fuente: https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=294820
               cantidades:
-                tasas1: 13.93
-                tasas2: 19.3
-                tasas3: 31.21
-                tasas4: 39.79
+                tasas1: 15.56
+                tasas2: 31.12
+                tasas3: 67.42
+                tasas4: 93.36
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=303776
+              cantidades:
+                tasas1: 15.56
+                tasas2: 31.12
+                tasas3: 67.42
+                tasas4: 93.36
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=318416
+              cantidades:
+                tasas1: 15.02
+                tasas2: 30.03
+                tasas3: 65.06
+                tasas4: 90.09
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=318416
+              cantidades:
+                tasas1: 15.02
+                tasas2: 30.03
+                tasas3: 65.06
+                tasas4: 90.09
+            - año: 2019
+              tipo: precio_por_crédito
+              comentario: A día 07/Nov/2019 no se han publicado las tasas oficiales en el BOC.
+              fuente: https://web.unican.es/estudiantesuc/Documents/Precios%20P%C3%BAblicos/Precios%20Grado%202019-2020.pdf
+              cantidades:
+                tasas1: 15.02
+                tasas2: 30.03
+                tasas3: 65.06
+                tasas4: 90.09
 - siglas: uclm-albacete
   nombre: Universidad de Castilla-La Mancha
   tipo: pública
@@ -1764,11 +1990,11 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Ingeniería Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: http://www.uclm.es/organos/vic_docencia/masteres/pdf/normativa/orden_10-06-2011.pdf
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2011/06/15/pdf/2011_9178.pdf&tipo=rutaDocm
               cantidades:
                 tasas1: 15.40
                 tasas2: 20.00
@@ -1776,7 +2002,7 @@ unis:
                 tasas4: 42.00
             - año: 2012
               tipo: precio_por_crédito
-              fuente: http://docm.jccm.es/portaldocm/descargarArchivo.do?ruta=2012/07/17/pdf/2012_10376.pdf&tipo=rutaDocm
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2012/07/17/pdf/2012_10376.pdf&tipo=rutaDocm
               cantidades:
                 tasas1: 18.53
                 tasas2: 37.07
@@ -1784,7 +2010,7 @@ unis:
                 tasas4: 111.20
             - año: 2013
               tipo: precio_por_crédito
-              fuente: http://www.uclm.es/doc/?id=UCLMDOCID-12-732
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2013/07/15/pdf/2013_8830.pdf&tipo=rutaDocm
               cantidades:
                 tasas1: 18.79
                 tasas2: 37.58
@@ -1792,20 +2018,52 @@ unis:
                 tasas4: 112.75
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://docm.jccm.es/portaldocm/descargarArchivo.do?ruta=2014/07/14/pdf/2014_9138.pdf&tipo=rutaDocm
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2014/07/14/pdf/2014_9138.pdf&tipo=rutaDocm
               cantidades:
                 tasas1: 18.87
                 tasas2: 37.73
                 tasas3: 81.76
-                tasas4: 113.2
+                tasas4: 113.20
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://www.uclm.es/estudiantes/guiamatricula/pdf/ExtractoPreciosPublicos.pdf
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2015/04/24/pdf/2015_4939.pdf&tipo=rutaDocm
               cantidades:
                 tasas1: 18.87
                 tasas2: 37.73
                 tasas3: 81.76
-                tasas4: 113.2
+                tasas4: 113.20
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2016/06/23/pdf/2016_6794.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2017/06/19/pdf/2017_7333.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2018/07/13/pdf/2018_8259.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2019/06/07/pdf/2019_5512.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
 - siglas: uclm-ciudadreal
   nombre: Universidad de Castilla-La Mancha (Campus de Ciudad Real)
   tipo: pública
@@ -1816,11 +2074,11 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente: http://www.uclm.es/organos/vic_docencia/masteres/pdf/normativa/orden_10-06-2011.pdf
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2011/06/15/pdf/2011_9178.pdf&tipo=rutaDocm
               cantidades:
                 tasas1: 15.40
                 tasas2: 20.00
@@ -1828,7 +2086,7 @@ unis:
                 tasas4: 42.00
             - año: 2012
               tipo: precio_por_crédito
-              fuente: http://docm.jccm.es/portaldocm/descargarArchivo.do?ruta=2012/07/17/pdf/2012_10376.pdf&tipo=rutaDocm
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2012/07/17/pdf/2012_10376.pdf&tipo=rutaDocm
               cantidades:
                 tasas1: 18.53
                 tasas2: 37.07
@@ -1836,7 +2094,7 @@ unis:
                 tasas4: 111.20
             - año: 2013
               tipo: precio_por_crédito
-              fuente: http://www.uclm.es/doc/?id=UCLMDOCID-12-732
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2013/07/15/pdf/2013_8830.pdf&tipo=rutaDocm
               cantidades:
                 tasas1: 18.79
                 tasas2: 37.58
@@ -1844,31 +2102,63 @@ unis:
                 tasas4: 112.75
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://docm.jccm.es/portaldocm/descargarArchivo.do?ruta=2014/07/14/pdf/2014_9138.pdf&tipo=rutaDocm
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2014/07/14/pdf/2014_9138.pdf&tipo=rutaDocm
               cantidades:
                 tasas1: 18.87
                 tasas2: 37.73
                 tasas3: 81.76
-                tasas4: 113.2
+                tasas4: 113.20
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://www.uclm.es/estudiantes/guiamatricula/pdf/ExtractoPreciosPublicos.pdf
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2015/04/24/pdf/2015_4939.pdf&tipo=rutaDocm
               cantidades:
                 tasas1: 18.87
                 tasas2: 37.73
                 tasas3: 81.76
-                tasas4: 113.2
+                tasas4: 113.20
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2016/06/23/pdf/2016_6794.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2017/06/19/pdf/2017_7333.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2018/07/13/pdf/2018_8259.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2019/06/07/pdf/2019_5512.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
 - siglas: uex-caceres
   nombre: Universidad de Extremadura
   tipo: pública
-  provincia: Caceres
+  provincia: Cáceres
   web: http://www.unex.es/conoce-la-uex/estructura-academica/centros/epcc
   lugares:
     - campus: Campus de Cáceres
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica de Cáceres
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1910,6 +2200,38 @@ unis:
                 tasas2: 33.66
                 tasas3: 72.93
                 tasas4: 100.99
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://doe.juntaex.es/pdfs/doe/2016/1520o/16040144.pdf
+              cantidades:
+                tasas1: 16.83
+                tasas2: 33.66
+                tasas3: 72.93
+                tasas4: 100.99
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://doe.juntaex.es/pdfs/doe/2017/1330o/17040114.pdf
+              cantidades:
+                tasas1: 16.83
+                tasas2: 33.66
+                tasas3: 72.93
+                tasas4: 100.99
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://doe.juntaex.es/pdfs/doe/2018/1400o/18040126.pdf
+              cantidades:
+                tasas1: 16.83
+                tasas2: 33.66
+                tasas3: 72.93
+                tasas4: 100.99
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://doe.juntaex.es/pdfs/doe/2019/1000o/19040064.pdf
+              cantidades:
+                tasas1: 16.83
+                tasas2: 33.66
+                tasas3: 72.93
+                tasas4: 100.99
 - siglas: uex-merida
   nombre: Universidad de Extremadura
   tipo: pública
@@ -1920,7 +2242,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica de Cáceres
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -1942,7 +2264,7 @@ unis:
               tipo: precio_por_crédito
               fuente: http://doe.juntaex.es/pdfs/doe/2013/1410o/13040141.pdf
               cantidades:
-                tasas1: 16.83
+                tasas1: 16.83    
                 tasas2: 33.66
                 tasas3: 72.93
                 tasas4: 100.99
@@ -1962,17 +2284,49 @@ unis:
                 tasas2: 33.66
                 tasas3: 72.93
                 tasas4: 100.99
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://doe.juntaex.es/pdfs/doe/2016/1520o/16040144.pdf
+              cantidades:
+                tasas1: 16.83
+                tasas2: 33.66
+                tasas3: 72.93
+                tasas4: 100.99
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://doe.juntaex.es/pdfs/doe/2017/1330o/17040114.pdf
+              cantidades:
+                tasas1: 16.83
+                tasas2: 33.66
+                tasas3: 72.93
+                tasas4: 100.99
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://doe.juntaex.es/pdfs/doe/2018/1400o/18040126.pdf
+              cantidades:
+                tasas1: 16.83
+                tasas2: 33.66
+                tasas3: 72.93
+                tasas4: 100.99
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://doe.juntaex.es/pdfs/doe/2019/1000o/19040064.pdf
+              cantidades:
+                tasas1: 16.83
+                tasas2: 33.66
+                tasas3: 72.93
+                tasas4: 100.99
 - siglas: udc
   nombre: Universidade da Coruña
   tipo: pública
-  provincia: La Coruna
+  provincia: A Coruña
   web: http://www.fic.udc.es/MainPage.do
   lugares:
     - campus: Campus de Elviña
       titulaciones:
         - tipo: grado
           centro: Facultade de Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2000,7 +2354,7 @@ unis:
                 tasas4: 39.79
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.usc.es/export/sites/default/gl/servizos/oiu/descargas/taxc.pdf
+              fuente: https://www.xunta.gal/dog/Publicados/2014/20140701/AnuncioG0164-260614-0003_es.html
               cantidades:
                 tasas1: 13.93
                 tasas2: 19.30
@@ -2008,7 +2362,39 @@ unis:
                 tasas4: 39.79
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2015/20150702/AnuncioG0164-260615-0004_gl.html
+              fuente: http://www.xunta.es/dog/Publicados/2015/20150702/AnuncioG0164-260615-0004_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://www.xunta.gal/dog/Publicados/2016/20160712/AnuncioG0164-010716-0003_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2017/20170714/AnuncioG0164-100717-0001_es.pdf
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2018/20180705/AnuncioG0164-270618-0001_es.pdf
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2019/20190711/AnuncioG0534-050719-0003_es.pdf
               cantidades:
                 tasas1: 13.93
                 tasas2: 19.30
@@ -2017,14 +2403,14 @@ unis:
 - siglas: usc
   nombre: Universidad de Santiago de Compostela
   tipo: pública
-  provincia: La Coruna
+  provincia: A Coruña
   web: http://www.usc.es/etse/grii
   lugares:
     - campus: Campus Vida
       titulaciones:
         - tipo: grado
           centro: Escola Técnica Superior de Enxeñaría
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2052,7 +2438,7 @@ unis:
                 tasas4: 39.79
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.usc.es/export/sites/default/gl/servizos/oiu/descargas/taxc.pdf
+              fuente: https://www.xunta.gal/dog/Publicados/2014/20140701/AnuncioG0164-260614-0003_es.html
               cantidades:
                 tasas1: 13.93
                 tasas2: 19.30
@@ -2060,7 +2446,39 @@ unis:
                 tasas4: 39.79
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2015/20150702/AnuncioG0164-260615-0004_gl.html
+              fuente: http://www.xunta.es/dog/Publicados/2015/20150702/AnuncioG0164-260615-0004_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://www.xunta.gal/dog/Publicados/2016/20160712/AnuncioG0164-010716-0003_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2017/20170714/AnuncioG0164-100717-0001_es.pdf
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2018/20180705/AnuncioG0164-270618-0001_es.pdf
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2019/20190711/AnuncioG0534-050719-0003_es.pdf
               cantidades:
                 tasas1: 13.93
                 tasas2: 19.30
@@ -2069,14 +2487,14 @@ unis:
 - siglas: uvigo
   nombre: Universidad de Vigo
   tipo: pública
-  provincia: Orense
+  provincia: Ourense
   web: http://www.esei.uvigo.es/
   lugares:
     - campus: Campus de Orense
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Ingeniería Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2104,18 +2522,50 @@ unis:
                 tasas4: 39.79
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.usc.es/export/sites/default/gl/servizos/oiu/descargas/taxc.pdf
+              fuente: https://www.xunta.gal/dog/Publicados/2014/20140701/AnuncioG0164-260614-0003_es.html
               cantidades:
                 tasas1: 13.93
-                tasas2: 19.3
+                tasas2: 19.30
                 tasas3: 31.21
                 tasas4: 39.79
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2015/20150702/AnuncioG0164-260615-0004_gl.html
+              fuente: http://www.xunta.es/dog/Publicados/2015/20150702/AnuncioG0164-260615-0004_es.html
               cantidades:
                 tasas1: 13.93
-                tasas2: 19.3
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://www.xunta.gal/dog/Publicados/2016/20160712/AnuncioG0164-010716-0003_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2017/20170714/AnuncioG0164-100717-0001_es.pdf
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2018/20180705/AnuncioG0164-270618-0001_es.pdf
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2019/20190711/AnuncioG0534-050719-0003_es.pdf
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
                 tasas3: 31.21
                 tasas4: 39.79
 - siglas: ucm
@@ -2128,7 +2578,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Facultad de Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2180,7 +2630,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2232,7 +2682,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Universitaria de Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2284,7 +2734,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2336,7 +2786,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2388,7 +2838,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingenieros Informáticos
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2440,7 +2890,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería de Sistemas Informáticos
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2492,7 +2942,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2529,7 +2979,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2581,7 +3031,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2610,7 +3060,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2644,7 +3094,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2675,7 +3125,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2704,7 +3154,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2741,7 +3191,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Facultad de Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2793,7 +3243,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Superior Politécnica
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2838,14 +3288,14 @@ unis:
 - siglas: ehu-alava
   nombre: Universidad del País Vasco
   tipo: pública
-  provincia: Alava
+  provincia: Álava
   web: http://www.ehu.eus/es/web/ingeniaritza-gasteiz/kudeaketaren-eta-informazio-sistemen-informatikaren-ingeniaritzako-gradua
   lugares:
     - campus: Campus de Álava
       titulaciones:
         - tipo: grado
           centro: Escuela Universitaria de Ingeniería de Vitoria 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2897,7 +3347,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Universitaria de Ingeniería Técnica Industrial de Bilbao
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -2949,7 +3399,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Facultad de Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3001,7 +3451,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingenieros Industriales y de Telecomunicación
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3053,7 +3503,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Facultad de Ciencias, Estudios Agroalimentarios e Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3105,7 +3555,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3142,7 +3592,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3194,7 +3644,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior de Elche
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3239,14 +3689,14 @@ unis:
 - siglas: uji
   nombre: Universitat Jaume I
   tipo: pública
-  provincia: Castellon
+  provincia: Castellón
   web: http://www.uji.es/infoest/estudis/grau/esp/ea/einf.html
   lugares:
     - campus: Campus de Castellón
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Tecnología y Ciencias Experimentales
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3298,7 +3748,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior de Alcoy
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3350,7 +3800,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería Informática
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3402,7 +3852,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3454,7 +3904,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3484,14 +3934,14 @@ unis:
 - siglas: ucav
   nombre: Universidad Católica de Santa Teresa de Jesús
   tipo: privada
-  provincia: Avila
+  provincia: Ávila
   web: 
   lugares:
     - campus: Campus de Ávila
       titulaciones:
         - tipo: grado
           centro: Campus de Ávila
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3518,7 +3968,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3552,7 +4002,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3586,7 +4036,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Facultad de Matemáticas
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3613,14 +4063,14 @@ unis:
 - siglas: ud
   nombre: Universidad de Deusto
   tipo: privada
-  provincia: Vizcaya
+  provincia: Bizkaia
   web: http://www.ingenieria.deusto.es/cs/Satellite/ingenieria/es/estudios-0/grados-area-tic/programa-en-ingenieria-informatica
   lugares:
     - campus: null
       titulaciones:
         - tipo: grado
           centro: Facultad de Ingeniería
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3648,16 +4098,16 @@ unis:
                 tasas3: 41.59
                 tasas4: 41.59
 - siglas: udg
-  nombre: Universidad de Gerona
+  nombre: Universidad de Girona
   tipo: pública
-  provincia: Gerona
+  provincia: Girona
   web: http://www.udg.edu/tabid/10104/Default.aspx?ID=3105G0710&language=es-ES&IDE=99
   lugares:
     - campus: Campus de Gerona
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3677,14 +4127,14 @@ unis:
 - siglas: udl-politecnica
   nombre: Universidad de Lérida
   tipo: pública
-  provincia: Lerida
+  provincia: Lleida
   web: http://www.grauinformatica.udl.cat/es
   lugares:
     - campus: Campus de Lérida
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3715,7 +4165,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3747,7 +4197,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3798,7 +4248,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3825,7 +4275,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3858,7 +4308,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3889,7 +4339,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
@@ -3920,7 +4370,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: 
-          titulación: 
+          titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
