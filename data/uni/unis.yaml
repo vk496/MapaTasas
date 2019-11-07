@@ -3453,6 +3453,38 @@ unis:
                 tasas2: 27.63
                 tasas3: 41.59
                 tasas4: 41.59
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 42.53
+                tasas4: 58.87
 - siglas: upv-ehu
   nombre: Universidad del País Vasco
   tipo: pública
@@ -3505,6 +3537,38 @@ unis:
                 tasas2: 27.63
                 tasas3: 41.59
                 tasas4: 41.59
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 42.53
+                tasas4: 58.87
 - siglas: upna
   nombre: Universidad Pública de Navarra
   tipo: pública
@@ -3557,6 +3621,38 @@ unis:
                 tasas2: 45.05
                 tasas3: 97.6
                 tasas4: 135.14
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://www.navarra.es/home_es/Actualidad/BON/Boletines/2016/122/Anuncio-12/
+              cantidades:
+                tasas1: 22.53
+                tasas2: 45.05
+                tasas3: 97.6
+                tasas4: 135.14
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.navarra.es/home_es/Actualidad/BON/Boletines/2017/158/Anuncio-7/
+              cantidades:
+                tasas1: 23.05
+                tasas2: 46.09
+                tasas3: 99.84
+                tasas4: 138.25
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://www.navarra.es/home_es/Actualidad/BON/Boletines/2018/119/Anuncio-0/
+              cantidades:
+                tasas1: 23.05
+                tasas2: 46.09
+                tasas3: 99.84
+                tasas4: 138.25
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: http://www.navarra.es/home_es/Actualidad/BON/Boletines/2019/121/Anuncio-8/
+              cantidades:
+                tasas1: 23.05
+                tasas2: 46.10
+                tasas3: 99.85
+                tasas4: 138.25
 - siglas: ur
   nombre: Universidad de La Rioja
   tipo: pública
@@ -3604,6 +3700,40 @@ unis:
             - año: 2015
               tipo: precio_por_crédito
               fuente: http://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=2542287-1-PDF-495971
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=3837390-1-PDF-504204
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=6083985-1-PDF-512440-X
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
+            - año: 2018
+              tipo: precio_por_crédito
+              comentario: No se ha publicado Boletín nuevo #TODO: revisar si es cierto
+              fuente: https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=6083985-1-PDF-512440-X
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
+            - año: 2019
+              tipo: precio_por_crédito
+              comentario: No se ha publicado Boletín nuevo #TODO: revisar si es cierto
+              fuente: https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=6083985-1-PDF-512440-X
               cantidades:
                 tasas1: 21.21
                 tasas2: 42.43
@@ -4395,35 +4525,80 @@ unis:
                 tasas1: 39.53
 - siglas: upf
   nombre: Universidad Pompeu Fabra
-  tipo: privada
+  tipo: pública
   provincia: Barcelona
-  web:
+  web: https://www.upf.edu/web/etic/grau-en-enginyeria-en-informatica
   lugares:
-    - campus: null
+    - campus: Campus de Barcelona
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Escola d'Enginyeria
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
               tipo: precio_por_crédito
-              fuente:
+              fuente: http://www.observatoriuniversitari.org/wp-content/uploads/2012/05/preus_2011_121.pdf
+              cantidades:
+                tasas1: 21.46
+                tasas2: 32.19
+                tasas3: 64.38
+                tasas4: 64.38
             - año: 2012
               tipo: precio_por_crédito
-              fuente: http://www.boe.es/boe/dias/2012/08/14/pdfs/BOE-A-2012-10852.pdf
+              fuente: http://www.observatoriuniversitari.org/wp-content/uploads/2012/07/preus_2012_13.pdf
+              cantidades:
+                tasas1: 35.77
+                tasas2: 42.92
+                tasas3: 93.00
+                tasas4: 128.77
             - año: 2013
               tipo: precio_por_crédito
-              fuente: http://www.boe.es/boe/dias/2013/08/08/pdfs/BOE-A-2013-8800.pdf
+              fuente: https://web.archive.org/web/20140713000307/http://www.uab.cat:80/Document_AAA/784/697/taxesacadadm,0.pdf
+              cantidades:
+                tasas1: 39.53
+                tasas2: 48.48
+                tasas3: 105.04
+                tasas4: 145.44
             - año: 2014
               tipo: precio_por_crédito
-              fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
+              fuente: https://web.archive.org/web/20141225213221/http://www.uab.cat:80/Document_AAA/784/697/taxesacadadm,0.pdf
               cantidades:
                 tasas1: 39.53
+                tasas2: 48.82
+                tasas3: 105.78
+                tasas4: 146.46
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
+              fuente: http://portaldogc.gencat.cat/utilsEADOP/PDF/6900/1431823.pdf
               cantidades:
                 tasas1: 39.53
+                tasas2: 48.82
+                tasas3: 105.78
+                tasas4: 146.46
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://web.archive.org/web/20170329104403/http://www.uab.cat:80/Document_AAA/784/697/taxesacadadm,0.pdf
+              cantidades:
+                tasas1: 39.53
+                tasas2: 48.82
+                tasas3: 105.78
+                tasas4: 146.46
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://www.uab.cat/Document_AAA/994/811/taxesacadadm,0.docx
+              cantidades:
+                tasas1: 39.53
+                tasas2: 48.82
+                tasas3: 105.78
+                tasas4: 146.46
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: http://portaldogc.gencat.cat/utilsEADOP/PDF/7652/1683419.pdf
+              cantidades:
+                tasas1: 39.53
+                tasas2: 48.82
+                tasas3: 105.78
+                tasas4: 146.46
 - siglas: ue-v
   nombre: Universidad Europea de Valencia
   tipo: privada
