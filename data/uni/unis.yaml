@@ -845,16 +845,17 @@ unis:
                 tasas2: 159
                 tasas3: 159
                 tasas4: 159
-- siglas: uo-oviedo
+- siglas: uo
   nombre: Universidad de Oviedo
   tipo: pública
-  web: http://www.ingenieriainformatica.uniovi.es/
+  web: http://www.uniovi.es/
   lugares:
     - campus: Campus de los Catalanes
       provincia: Asturias
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería Informática
+          web: http://www.ingenieriainformatica.uniovi.es/
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -929,16 +930,12 @@ unis:
                 tasas2: 27.37
                 tasas3: 50.19
                 tasas4: 70.15
-- siglas: uo-gijon
-  nombre: Universidad de Oviedo
-  tipo: pública
-  web: http://www.epigijon.uniovi.es/index.php/ingenieria-informatica
-  lugares:
     - campus: Campus de Viesques
       provincia: Asturias
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica de Ingeniería de Gijón
+          web: http://www.epigijon.uniovi.es/index.php/ingenieria-informatica
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1265,7 +1262,7 @@ unis:
                 tasas2: 26.26
                 tasas3: 49.49
                 tasas4: 64.24
-- siglas: upsa-salamanca
+- siglas: upsa
   nombre: Universidad Pontificia de Salamanca
   tipo: privada
   web: http://www.upsa.es/estudiar/estudios/titulacion/ficha.php?idTit=1005
@@ -1275,6 +1272,7 @@ unis:
       titulaciones:
         - tipo: grado
           centro: Centro de Salamanca #TODO fake, fix (online)
+          web: http://www.upsa.es/estudiar/estudios/titulacion/ficha.php?idTit=1005
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1349,16 +1347,12 @@ unis:
                 tasas2: 118
                 tasas3: 52
                 tasas4: 52
-- siglas: upsa-madrid
-  nombre: Universidad Pontificia de Salamanca
-  tipo: privada
-  web: http://www.upsa.es/estudiar/estudios/titulacion/ficha.php?idTit=1005
-  lugares:
     - campus: Campus de Madrid
       provincia: Madrid
       titulaciones:
         - tipo: grado
           centro: Centro de Madrid #TODO fake, fix (online)
+          web: http://www.upsa.es/estudiar/estudios/titulacion/ficha.php?idTit=1005
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1390,17 +1384,18 @@ unis:
                 tasas4: 53
             - año: 2015
               tipo: precio_por_crédito
-              fuente:
-- siglas: usal-salamanca
+              fuente:    
+- siglas: usal
   nombre: Universidad de Salamanca
   tipo: pública
-  web: http://www.usal.es/webusal/node/4558
+  web: http://www.usal.es
   lugares:
     - campus: Campus de Salamanca
       provincia: Salamanca
       titulaciones:
         - tipo: grado
           centro: Facultad de Ciencias
+          web: http://www.usal.es/webusal/node/4558
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1475,16 +1470,12 @@ unis:
                 tasas2: 41.59
                 tasas3: 90.10
                 tasas4: 124.76
-- siglas: usal-zamora
-  nombre: Universidad de Salamanca
-  tipo: pública
-  web: http://www.usal.es/webusal/node/4540
-  lugares:
     - campus: Campus de Zamora
       provincia: Zamora
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior de Zamora
+          web: http://www.usal.es/webusal/node/4540
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1559,16 +1550,17 @@ unis:
                 tasas2: 41.59
                 tasas3: 90.10
                 tasas4: 124.76
-- siglas: uva-valladolid
+- siglas: uva
   nombre: Universidad de Valladolid
   tipo: pública
-  web: http://www.uva.es/export/sites/uva/2.docencia/2.01.grados/2.01.02.ofertaformativagrados/2.01.02.01.alfabetica/Grado-en-Ingenieria-Informatica-00001/
+  web: http://www.uva.es
   lugares:
     - campus: Campus de Valladolid
       provincia: Valladolid
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería Informática
+          web: http://www.uva.es/export/sites/uva/2.docencia/2.01.grados/2.01.02.ofertaformativagrados/2.01.02.01.alfabetica/Grado-en-Ingenieria-Informatica-00001/
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1643,16 +1635,12 @@ unis:
                 tasas2: 41.59
                 tasas3: 90.10
                 tasas4: 124.76
-- siglas: uva-segovia
-  nombre: Universidad de Valladolid
-  tipo: pública
-  web: http://www.uva.es/export/sites/uva/2.docencia/2.01.grados/2.01.02.ofertaformativagrados/2.01.02.01.alfabetica/Grado-en-Ingenieria-Informatica-de-Servicios-y-Aplicaciones/
-  lugares:
     - campus: Campus de Segovia
       provincia: Segovia
       titulaciones:
         - tipo: grado
           centro: Escuela Universitaria de Informática
+          web: http://www.uva.es/export/sites/uva/2.docencia/2.01.grados/2.01.02.ofertaformativagrados/2.01.02.01.alfabetica/Grado-en-Ingenieria-Informatica-de-Servicios-y-Aplicaciones/
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1980,16 +1968,17 @@ unis:
                 tasas2: 30.03
                 tasas3: 65.06
                 tasas4: 90.09
-- siglas: uclm-albacete
+- siglas: uclm
   nombre: Universidad de Castilla-La Mancha
   tipo: pública
-  web: http://www.esiiab.uclm.es/grado/datos.php?curso=2014-15&idmenup=datosgrado
+  web: http://uclm.es
   lugares:
     - campus: Campus de Albacete
       provincia: Albacete
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Ingeniería Informática
+          web: http://www.esiiab.uclm.es/grado/datos.php?curso=2014-15&idmenup=datosgrado
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -2064,16 +2053,12 @@ unis:
                 tasas2: 37.73
                 tasas3: 81.76
                 tasas4: 113.20
-- siglas: uclm-ciudadreal
-  nombre: Universidad de Castilla-La Mancha (Campus de Ciudad Real)
-  tipo: pública
-  web: http://webpub.esi.uclm.es/paginas/formacion-grado-en-ing-informatica-1
-  lugares:
     - campus: Campus de Ciudad Real
       provincia: Ciudad Real
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Informática
+          web: http://webpub.esi.uclm.es/paginas/formacion-grado-en-ing-informatica-1
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -2148,16 +2133,17 @@ unis:
                 tasas2: 37.73
                 tasas3: 81.76
                 tasas4: 113.20
-- siglas: uex-caceres
+- siglas: uex
   nombre: Universidad de Extremadura
   tipo: pública
-  web: http://www.unex.es/conoce-la-uex/estructura-academica/centros/epcc
+  web: http://www.unex.es/
   lugares:
     - campus: Campus de Cáceres
       provincia: Cáceres
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica de Cáceres
+          web: http://www.unex.es/conoce-la-uex/estructura-academica/centros/epcc
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -2232,16 +2218,12 @@ unis:
                 tasas2: 33.66
                 tasas3: 72.93
                 tasas4: 100.99
-- siglas: uex-merida
-  nombre: Universidad de Extremadura
-  tipo: pública
-  web: http://www.unex.es/conoce-la-uex/estructura-academica/centros/cum/titulaciones/grado/info_titulacion?idTitulacion=G55&idPlan=1514&idCentro=15
-  lugares:
     - campus: Campus de Mérida
       provincia: Badajoz
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica de Cáceres
+          web: http://www.unex.es/conoce-la-uex/estructura-academica/centros/cum/titulaciones/grado/info_titulacion?idTitulacion=G55&idPlan=1514&idCentro=15
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -2828,16 +2810,17 @@ unis:
                 tasas2: 51.42
                 tasas3: 96.43
                 tasas4: 128.57
-- siglas: upm-montegarcedo
+- siglas: upm
   nombre: Universidad Politécnica de Madrid
   tipo: pública
-  web: http://www.upm.es/institucional/Estudiantes/Estudios_Titulaciones/EstudiosOficialesGrado/ArticulosRelacionados/b4fa8093d2320210VgnVCM10000009c7648aRCRD
+  web: http://www.upm.es
   lugares:
     - campus: Campus de Montegarcedo
       provincia: Madrid
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingenieros Informáticos
+          web: http://www.upm.es/institucional/Estudiantes/Estudios_Titulaciones/EstudiosOficialesGrado/ArticulosRelacionados/b4fa8093d2320210VgnVCM10000009c7648aRCRD
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -2880,16 +2863,12 @@ unis:
                 tasas2: 51.42
                 tasas3: 96.43
                 tasas4: 128.57
-- siglas: upm-campus-sur
-  nombre: Universidad Politécnica de Madrid
-  tipo: pública
-  web: http://www.upm.es/institucional/UPM/Centros/CampusSur/ETSISistemasInformaticos
-  lugares:
     - campus: Campus Sur
       provincia: Madrid
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería de Sistemas Informáticos
+          web: http://www.upm.es/institucional/UPM/Centros/CampusSur/ETSISistemasInformaticos
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3317,184 +3296,177 @@ unis:
                 tasas2: 66.60
                 tasas3: 66.60
                 tasas4: 66.60
-- siglas: ehu-alava
+- siglas: ehu
   nombre: Universidad del País Vasco
   tipo: pública
-  web: http://www.ehu.eus/es/web/ingeniaritza-gasteiz/kudeaketaren-eta-informazio-sistemen-informatikaren-ingeniaritzako-gradua
-  lugares:
-    - campus: Campus de Álava
-      provincia: Álava
-      titulaciones:
-        - tipo: grado
-          centro: Escuela Universitaria de Ingeniería de Vitoria
-          titulación: Grado en Ingeniería Informática
-          tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2011/07/1103564a.pdf
-              cantidades:
-                tasas1: 18.29
-                tasas2: 21.59
-                tasas3: 21.59
-                tasas4: 21.59
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2012/07/1203198a.pdf
-              cantidades:
-                tasas1: 18.66
-                tasas2: 22.67
-                tasas3: 28.56
-                tasas4: 28.56
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2013/07/1303184a.pdf
-              cantidades:
-                tasas1: 19.11
-                tasas2: 24.03
-                tasas3: 31.99
-                tasas4: 31.99
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.net/r48-bopv2/es/bopv2/datos/2014/07/1403173a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.jusap.ejgv.euskadi.eus/r47-bopvapps/es/bopv2/datos/2015/07/1503138a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 42.53
-                tasas4: 58.87
-- siglas: ehu-bilbao
-  nombre: Universidad del País Vasco (Campus de Bilbao)
-  tipo: pública
-  web: https://www.ehu.eus/es/web/ingenieria-tecnica-bilbao/kudeaketaren-eta-informazio-sistemen-informatikaren-ingeniaritzako-gradua
-  lugares:
-    - campus: Campus de Bizkaia
-      provincia: Bizkaia
-      titulaciones:
-        - tipo: grado
-          centro: Escuela Universitaria de Ingeniería Técnica Industrial de Bilbao
-          titulación: Grado en Ingeniería Informática
-          tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2011/07/1103564a.pdf
-              cantidades:
-                tasas1: 18.29
-                tasas2: 21.59
-                tasas3: 21.59
-                tasas4: 21.59
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2012/07/1203198a.pdf
-              cantidades:
-                tasas1: 18.66
-                tasas2: 22.67
-                tasas3: 28.56
-                tasas4: 28.56
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2013/07/1303184a.pdf
-              cantidades:
-                tasas1: 19.11
-                tasas2: 24.03
-                tasas3: 31.99
-                tasas4: 31.99
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.net/r48-bopv2/es/bopv2/datos/2014/07/1403173a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.jusap.ejgv.euskadi.eus/r47-bopvapps/es/bopv2/datos/2015/07/1503138a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 42.53
-                tasas4: 58.87
-- siglas: upv-ehu
-  nombre: Universidad del País Vasco
-  tipo: pública
-  web: https://www.ehu.eus/es/web/informatika-fakultatea
+  web: https://www.ehu.eus/
   lugares:
     - campus: Campus de Gipuzkoa
       provincia: Gipuzkoa
       titulaciones:
         - tipo: grado
           centro: Facultad de Informática
+          web: https://www.ehu.eus/es/web/informatika-fakultatea
+          titulación: Grado en Ingeniería Informática
+          tasas:
+            - año: 2011
+              tipo: precio_por_crédito
+              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2011/07/1103564a.pdf
+              cantidades:
+                tasas1: 18.29
+                tasas2: 21.59
+                tasas3: 21.59
+                tasas4: 21.59
+            - año: 2012
+              tipo: precio_por_crédito
+              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2012/07/1203198a.pdf
+              cantidades:
+                tasas1: 18.66
+                tasas2: 22.67
+                tasas3: 28.56
+                tasas4: 28.56
+            - año: 2013
+              tipo: precio_por_crédito
+              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2013/07/1303184a.pdf
+              cantidades:
+                tasas1: 19.11
+                tasas2: 24.03
+                tasas3: 31.99
+                tasas4: 31.99
+            - año: 2014
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.net/r48-bopv2/es/bopv2/datos/2014/07/1403173a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2015
+              tipo: precio_por_crédito
+              fuente: http://www.jusap.ejgv.euskadi.eus/r47-bopvapps/es/bopv2/datos/2015/07/1503138a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 42.53
+                tasas4: 58.87
+    - campus: Campus de Álava
+      provincia: Álava
+      titulaciones:
+        - tipo: grado
+          centro: Escuela Universitaria de Ingeniería de Vitoria
+          web: http://www.ehu.eus/es/web/ingeniaritza-gasteiz/kudeaketaren-eta-informazio-sistemen-informatikaren-ingeniaritzako-gradua
+          titulación: Grado en Ingeniería Informática
+          tasas:
+            - año: 2011
+              tipo: precio_por_crédito
+              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2011/07/1103564a.pdf
+              cantidades:
+                tasas1: 18.29
+                tasas2: 21.59
+                tasas3: 21.59
+                tasas4: 21.59
+            - año: 2012
+              tipo: precio_por_crédito
+              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2012/07/1203198a.pdf
+              cantidades:
+                tasas1: 18.66
+                tasas2: 22.67
+                tasas3: 28.56
+                tasas4: 28.56
+            - año: 2013
+              tipo: precio_por_crédito
+              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2013/07/1303184a.pdf
+              cantidades:
+                tasas1: 19.11
+                tasas2: 24.03
+                tasas3: 31.99
+                tasas4: 31.99
+            - año: 2014
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.net/r48-bopv2/es/bopv2/datos/2014/07/1403173a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2015
+              tipo: precio_por_crédito
+              fuente: http://www.jusap.ejgv.euskadi.eus/r47-bopvapps/es/bopv2/datos/2015/07/1503138a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 42.53
+                tasas4: 58.87
+    - campus: Campus de Bizkaia
+      provincia: Bizkaia
+      titulaciones:
+        - tipo: grado
+          centro: Escuela Universitaria de Ingeniería Técnica Industrial de Bilbao
+          web: https://www.ehu.eus/es/web/ingenieria-tecnica-bilbao/kudeaketaren-eta-informazio-sistemen-informatikaren-ingeniaritzako-gradua
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3932,16 +3904,17 @@ unis:
                 tasas2: 41.73
                 tasas3: 85.55
                 tasas4: 118.07
-- siglas: upv-alcoy
+- siglas: upv
   nombre: Universidad Politécnica de Valencia
   tipo: pública
-  web: http://www.upv.es/titulaciones/GII-A/indexc.html
+  web: http://www.upv.es
   lugares:
     - campus: Campus de Alcoy
       provincia: Valencia
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior de Alcoy
+          web: http://www.upv.es/titulaciones/GII-A/indexc.html
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3984,16 +3957,12 @@ unis:
                 tasas2: 41.73
                 tasas3: 85.55
                 tasas4: 118.07
-- siglas: upv-valencia
-  nombre: Universidad Politécnica de Valencia
-  tipo: pública
-  web: http://www.upv.es/entidades/ETSINF/
-  lugares:
     - campus: Campus de Valencia
       provincia: Valencia
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería Informática
+          web: http://www.upv.es/entidades/ETSINF/
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
