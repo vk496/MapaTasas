@@ -3,10 +3,10 @@ unis:
 - siglas: ual
   nombre: Universidad de Almería
   tipo: pública
-  provincia: Almería
   web: http://cms.ual.es/UAL/estudios/grados/GRADO4010
   lugares:
     - campus: Campus de Almería #Verify
+      provincia: Almería
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Ingeniería
@@ -79,10 +79,10 @@ unis:
 - siglas: ugr-ceuta
   nombre: Universidad de Granada
   tipo: pública
-  provincia: Ceuta
   web: https://feetce.ugr.es
   lugares:
     - campus: Campus Universitario de Ceuta
+      provincia: Ceuta
       titulaciones:
         - tipo: grado
           centro: Facultad de Educación, Economía y Tecnología
@@ -155,10 +155,10 @@ unis:
 - siglas: uma
   nombre: Universidad de Málaga
   tipo: pública
-  provincia: Málaga
   web: https://www.uma.es/etsi-informatica/
   lugares:
     - campus: Campus de Teatinos
+      provincia: Málaga
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería Informática
@@ -231,10 +231,10 @@ unis:
 - siglas: us
   nombre: Universidad de Sevilla
   tipo: pública
-  provincia: Sevilla
   web: https://www.informatica.us.es/
   lugares:
     - campus: Campus de Reina Mercedes
+      provincia: Sevilla
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería Informática
@@ -307,10 +307,10 @@ unis:
 - siglas: upo
   nombre: Universidad Pablo de Olavide
   tipo: pública
-  provincia: Sevilla
   web: http://www.upo.es/portal/impe/web/contenido/a71c7736-752e-11df-a821-3fe5a96f4a88?channel=d3563863-2f47-11de-b088-3fe5a96f4a88 #TODO
   lugares:
     - campus: Campus de Sevilla #TODO
+      provincia: Sevilla
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
@@ -383,10 +383,10 @@ unis:
 - siglas: uca
   nombre: Universidad de Cádiz
   tipo: pública
-  provincia: Cádiz
   web: https://esingenieria.uca.es/docencia/grados/gii/
   lugares:
     - campus: Campus Universitario de Puerto Real
+      provincia: Cádiz
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Ingeniería
@@ -459,10 +459,10 @@ unis:
 - siglas: uco
   nombre: Universidad de Córdoba
   tipo: pública
-  provincia: Córdoba
   web: https://www.uco.es/organiza/centros/eps/es/titulaciones/gr-ing-informatica
   lugares:
     - campus: Campus Rabanales
+      provincia: Córdoba
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior de Córdoba
@@ -535,10 +535,10 @@ unis:
 - siglas: uja
   nombre: Universidad de Jaén
   tipo: pública
-  provincia: Jaén
   web: http://grados.ujaen.es/node/11/presentacion
   lugares:
     - campus: Campus Las Lagunillas de Jaén
+      provincia: Jaén
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior de Jaén
@@ -611,10 +611,10 @@ unis:
 - siglas: uhu
   nombre: Universidad de Huelva
   tipo: pública
-  provincia: Huelva
   web: http://www.uhu.es/estudios/ofertaacademica/informacion/informatica.pdf
   lugares:
     - campus: Campus «El Carmen»
+      provincia: Huelva
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería
@@ -687,10 +687,10 @@ unis:
 - siglas: unizar
   nombre: Universidad de Zaragoza
   tipo: pública
-  provincia: Zaragoza
   web: http://titulaciones.unizar.es/ing-informatica/
   lugares:
     - campus: Campus Río Ebro
+      provincia: Zaragoza
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería y Arquitectura
@@ -772,10 +772,10 @@ unis:
 - siglas: usj
   nombre: Universidad de San Jorge
   tipo: privada
-  provincia: Zaragoza
   web: http://www.usj.es/estudios/grados/ingenieriainformatica
   lugares:
     - campus: Campus de Zaragoza
+      provincia: Zaragoza
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
@@ -848,10 +848,10 @@ unis:
 - siglas: uo-oviedo
   nombre: Universidad de Oviedo
   tipo: pública
-  provincia: Asturias
   web: http://www.ingenieriainformatica.uniovi.es/
   lugares:
     - campus: Campus de los Catalanes
+      provincia: Asturias
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería Informática
@@ -932,10 +932,10 @@ unis:
 - siglas: uo-gijon
   nombre: Universidad de Oviedo
   tipo: pública
-  provincia: Asturias
   web: http://www.epigijon.uniovi.es/index.php/ingenieria-informatica
   lugares:
     - campus: Campus de Viesques
+      provincia: Asturias
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica de Ingeniería de Gijón
@@ -1016,10 +1016,10 @@ unis:
 - siglas: uib
   nombre: Universidad de las Islas Baleares
   tipo: pública
-  provincia: Illes Balears
   web: http://estudis.uib.es/es/grau/informatica/GEIN-P/
   lugares:
     - campus: Campus de Palma de Mallorca
+      provincia: Illes Balears
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
@@ -1100,10 +1100,10 @@ unis:
 - siglas: ulpgc
   nombre: Universidad de las Palmas de Gran Canaria
   tipo: pública
-  provincia: Las Palmas
   web: http://www.eii.ulpgc.es/tb_university_ex/
   lugares:
     - campus: Campus de Gran Canaria
+      provincia: Las Palmas
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería Informática
@@ -1184,10 +1184,10 @@ unis:
 - siglas: ull
   nombre: Universidad de La Laguna
   tipo: pública
-  provincia: Santa Cruz de Tenerife
   web: http://www.ull.es/view/centros/etsii/Inicio/es
   lugares:
     - campus: Campus de Santa Cruz de Tenerife
+      provincia: Santa Cruz de Tenerife
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería en Informática
@@ -1268,13 +1268,13 @@ unis:
 - siglas: upsa-salamanca
   nombre: Universidad Pontificia de Salamanca
   tipo: privada
-  provincia: Salamanca
   web: http://www.upsa.es/estudiar/estudios/titulacion/ficha.php?idTit=1005
   lugares:
     - campus: Campus de Salamanca
+      provincia: Salamanca
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro de Salamanca #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1352,13 +1352,13 @@ unis:
 - siglas: upsa-madrid
   nombre: Universidad Pontificia de Salamanca
   tipo: privada
-  provincia: Madrid
   web: http://www.upsa.es/estudiar/estudios/titulacion/ficha.php?idTit=1005
   lugares:
     - campus: Campus de Madrid
+      provincia: Madrid
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro de Madrid #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -1394,10 +1394,10 @@ unis:
 - siglas: usal-salamanca
   nombre: Universidad de Salamanca
   tipo: pública
-  provincia: Salamanca
   web: http://www.usal.es/webusal/node/4558
   lugares:
     - campus: Campus de Salamanca
+      provincia: Salamanca
       titulaciones:
         - tipo: grado
           centro: Facultad de Ciencias
@@ -1478,10 +1478,10 @@ unis:
 - siglas: usal-zamora
   nombre: Universidad de Salamanca
   tipo: pública
-  provincia: Zamora
   web: http://www.usal.es/webusal/node/4540
   lugares:
     - campus: Campus de Zamora
+      provincia: Zamora
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior de Zamora
@@ -1562,10 +1562,10 @@ unis:
 - siglas: uva-valladolid
   nombre: Universidad de Valladolid
   tipo: pública
-  provincia: Valladolid
   web: http://www.uva.es/export/sites/uva/2.docencia/2.01.grados/2.01.02.ofertaformativagrados/2.01.02.01.alfabetica/Grado-en-Ingenieria-Informatica-00001/
   lugares:
     - campus: Campus de Valladolid
+      provincia: Valladolid
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería Informática
@@ -1646,10 +1646,10 @@ unis:
 - siglas: uva-segovia
   nombre: Universidad de Valladolid
   tipo: pública
-  provincia: Segovia
   web: http://www.uva.es/export/sites/uva/2.docencia/2.01.grados/2.01.02.ofertaformativagrados/2.01.02.01.alfabetica/Grado-en-Ingenieria-Informatica-de-Servicios-y-Aplicaciones/
   lugares:
     - campus: Campus de Segovia
+      provincia: Segovia
       titulaciones:
         - tipo: grado
           centro: Escuela Universitaria de Informática
@@ -1730,10 +1730,10 @@ unis:
 - siglas: ule
   nombre: Universidad de León
   tipo: pública
-  provincia: León
   web: http://www.unileon.es/estudiantes/estudiantes-grado/oferta-de-estudios/grado-en-ingenieria-informatica
   lugares:
     - campus: Campus de León
+      provincia: León
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingenierías Industrial e Informática
@@ -1814,10 +1814,10 @@ unis:
 - siglas: ubu
   nombre: Universidad de Burgos
   tipo: pública
-  provincia: Burgos
   web: http://www.ubu.es/titulaciones/es/grado_informatica
   lugares:
     - campus: Campus de Burgos
+      provincia: Burgos
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
@@ -1898,10 +1898,10 @@ unis:
 - siglas: uc
   nombre: Universidad de Cantabria
   tipo: pública
-  provincia: Cantabria
   web: http://www.unican.es/WebUC/catalogo/planes/detalle_od.asp?id=98
   lugares:
     - campus: Campus de Cantabria
+      provincia: Cantabria
       titulaciones:
         - tipo: grado
           centro: Facultad de Ciencias
@@ -1983,10 +1983,10 @@ unis:
 - siglas: uclm-albacete
   nombre: Universidad de Castilla-La Mancha
   tipo: pública
-  provincia: Albacete
   web: http://www.esiiab.uclm.es/grado/datos.php?curso=2014-15&idmenup=datosgrado
   lugares:
     - campus: Campus de Albacete
+      provincia: Albacete
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Ingeniería Informática
@@ -2067,10 +2067,10 @@ unis:
 - siglas: uclm-ciudadreal
   nombre: Universidad de Castilla-La Mancha (Campus de Ciudad Real)
   tipo: pública
-  provincia: Ciudad Real
   web: http://webpub.esi.uclm.es/paginas/formacion-grado-en-ing-informatica-1
   lugares:
     - campus: Campus de Ciudad Real
+      provincia: Ciudad Real
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Informática
@@ -2151,10 +2151,10 @@ unis:
 - siglas: uex-caceres
   nombre: Universidad de Extremadura
   tipo: pública
-  provincia: Cáceres
   web: http://www.unex.es/conoce-la-uex/estructura-academica/centros/epcc
   lugares:
     - campus: Campus de Cáceres
+      provincia: Cáceres
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica de Cáceres
@@ -2235,10 +2235,10 @@ unis:
 - siglas: uex-merida
   nombre: Universidad de Extremadura
   tipo: pública
-  provincia: Badajoz
   web: http://www.unex.es/conoce-la-uex/estructura-academica/centros/cum/titulaciones/grado/info_titulacion?idTitulacion=G55&idPlan=1514&idCentro=15
   lugares:
     - campus: Campus de Mérida
+      provincia: Badajoz
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica de Cáceres
@@ -2319,10 +2319,10 @@ unis:
 - siglas: udc
   nombre: Universidade da Coruña
   tipo: pública
-  provincia: A Coruña
   web: http://www.fic.udc.es/MainPage.do
   lugares:
     - campus: Campus de Elviña
+      provincia: A Coruña
       titulaciones:
         - tipo: grado
           centro: Facultade de Informática
@@ -2403,10 +2403,10 @@ unis:
 - siglas: usc
   nombre: Universidad de Santiago de Compostela
   tipo: pública
-  provincia: A Coruña
   web: http://www.usc.es/etse/grii
   lugares:
     - campus: Campus Vida
+      provincia: A Coruña
       titulaciones:
         - tipo: grado
           centro: Escola Técnica Superior de Enxeñaría
@@ -2487,10 +2487,10 @@ unis:
 - siglas: uvigo
   nombre: Universidad de Vigo
   tipo: pública
-  provincia: Ourense
   web: http://www.esei.uvigo.es/
   lugares:
     - campus: Campus de Orense
+      provincia: Ourense
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Ingeniería Informática
@@ -2571,10 +2571,10 @@ unis:
 - siglas: ucm
   nombre: Universidad Complutense de Madrid
   tipo: pública
-  provincia: Madrid
   web: http://www.ucm.es/estudios/2014-15/grado-ingenieriainformatica
   lugares:
     - campus: Campus de Madrid
+      provincia: Madrid
       titulaciones:
         - tipo: grado
           centro: Facultad de Informática
@@ -2623,10 +2623,10 @@ unis:
 - siglas: urjc
   nombre: Universidad Rey Juan Carlos
   tipo: pública
-  provincia: Madrid
   web: http://www.etsii.urjc.es/
   lugares:
     - campus: Campus de Móstoles
+      provincia: Madrid
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería Informática
@@ -2675,10 +2675,10 @@ unis:
 - siglas: uc3m
   nombre: Universidad Carlos III
   tipo: pública
-  provincia: Madrid
   web: http://www.uc3m.es/ss/Satellite/UC3MInstitucional/es/Detalle/Estudio_C/1371206697201/1371206607588/Grado_en_Ingenieria_Informatica
   lugares:
     - campus: Campus de Leganés
+      provincia: Madrid
       titulaciones:
         - tipo: grado
           centro: Escuela Universitaria de Informática
@@ -2727,10 +2727,10 @@ unis:
 - siglas: uam
   nombre: Universidad Autónoma de Madrid
   tipo: pública
-  provincia: Madrid
   web: http://www.uam.es/cs/ContentServer/EscuelaPolitecnica/es/estudios/grado-3/Page/contenidoFinal/grado-en-ingenieria-informatica-3.htm
   lugares:
     - campus: Campus de Madrid
+      provincia: Madrid
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
@@ -2779,10 +2779,10 @@ unis:
 - siglas: uah
   nombre: Universidad de Alcalá
   tipo: pública
-  provincia: Madrid
   web: http://www.uah.es/estudios/grados/planes.asp?cd=210&plan=G780
   lugares:
     - campus: Campus externo de Alcalá
+      provincia: Madrid
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
@@ -2831,10 +2831,10 @@ unis:
 - siglas: upm-montegarcedo
   nombre: Universidad Politécnica de Madrid
   tipo: pública
-  provincia: Madrid
   web: http://www.upm.es/institucional/Estudiantes/Estudios_Titulaciones/EstudiosOficialesGrado/ArticulosRelacionados/b4fa8093d2320210VgnVCM10000009c7648aRCRD
   lugares:
     - campus: Campus de Montegarcedo
+      provincia: Madrid
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingenieros Informáticos
@@ -2883,10 +2883,10 @@ unis:
 - siglas: upm-campus-sur
   nombre: Universidad Politécnica de Madrid
   tipo: pública
-  provincia: Madrid
   web: http://www.upm.es/institucional/UPM/Centros/CampusSur/ETSISistemasInformaticos
   lugares:
     - campus: Campus Sur
+      provincia: Madrid
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería de Sistemas Informáticos
@@ -2935,13 +2935,13 @@ unis:
 - siglas: ceu
   nombre: Universidad CEU San Pablo
   tipo: privada
-  provincia: Madrid
   web: http://www.uspceu.com/es/estudios/grado/escuela-politecnica-superior/index.php
   lugares:
     - campus: Campus de Madrid
+      provincia: Madrid
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro de Madrid #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -2972,13 +2972,13 @@ unis:
 - siglas: udima
   nombre: Universidad a Distancia de Madrid
   tipo: privada
-  provincia: Madrid
   web: http://www.udima.es/es/precios.html
   lugares:
     - campus: Campus de Collado Villalba
+      provincia: Madrid
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro de Madrid #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3024,13 +3024,13 @@ unis:
 - siglas: uax
   nombre: Universidad Alfonso X El Sabio
   tipo: privada
-  provincia: Madrid
   web: http://www.uax.es/grado-en-ingenieria-informatica.html
   lugares:
     - campus: null
+      provincia: Madrid
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro de Madrid #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3053,13 +3053,13 @@ unis:
 - siglas: ceu-uch
   nombre: Universidad Cardenal Herrera
   tipo: privada
-  provincia: Valencia
   web: https://www.uchceu.es/estudios/grado/ingenieria-sistemas-informacion-semipresencial
   lugares:
     - campus: Campus de Moncada
+      provincia: Valencia
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro de Madrid #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3087,13 +3087,13 @@ unis:
 - siglas: uem
   nombre: Universidad Europea de Madrid
   tipo: privada
-  provincia: Madrid
   web: http://madrid.universidadeuropea.es/estudios-universitarios/grado-en-ingenieria-informatica
   lugares:
     - campus: Campus de Villaviciosa de Odón
+      provincia: Madrid
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro de Madrid #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3118,13 +3118,13 @@ unis:
 - siglas: uemc
   nombre: Universidad Europea Miguel de Cervantes
   tipo: privada
-  provincia: Valladolid
   web: http://www.uemc.es/grados/grado-en-ingenieria-informatica
   lugares:
     - campus:
+      provincia: Valladolid      
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro de Valladolid #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3147,13 +3147,13 @@ unis:
 - siglas: ufv
   nombre: Universidad Francisco de Vitoria
   tipo: privada
-  provincia: Madrid
   web: http://www.ufv.es/grado-en-ingenieria-informatica
   lugares:
     - campus: Campus de la Universidad Francisco de Vitoria
+      provincia: Madrid
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro de Madrid #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -3184,10 +3184,10 @@ unis:
 - siglas: um
   nombre: Universidad de Murcia
   tipo: pública
-  provincia: Murcia
   web: http://www.um.es/informatica/
   lugares:
     - campus: Campus de Murcia
+      provincia: Murcia
       titulaciones:
         - tipo: grado
           centro: Facultad de Informática
@@ -3268,10 +3268,10 @@ unis:
 - siglas: ucam
   nombre: Universidad Católica San Antonio de Murcia
   tipo: privada
-  provincia: Murcia
   web: http://www.ucam.edu/estudios/grados/informatica-presencial
   lugares:
     - campus: Campus de Murcia
+      provincia: Murcia
       titulaciones:
         - tipo: grado
           centro: Escuela Superior Politécnica
@@ -3320,10 +3320,10 @@ unis:
 - siglas: ehu-alava
   nombre: Universidad del País Vasco
   tipo: pública
-  provincia: Álava
   web: http://www.ehu.eus/es/web/ingeniaritza-gasteiz/kudeaketaren-eta-informazio-sistemen-informatikaren-ingeniaritzako-gradua
   lugares:
     - campus: Campus de Álava
+      provincia: Álava
       titulaciones:
         - tipo: grado
           centro: Escuela Universitaria de Ingeniería de Vitoria
@@ -3404,10 +3404,10 @@ unis:
 - siglas: ehu-bilbao
   nombre: Universidad del País Vasco (Campus de Bilbao)
   tipo: pública
-  provincia: Bizkaia
   web: https://www.ehu.eus/es/web/ingenieria-tecnica-bilbao/kudeaketaren-eta-informazio-sistemen-informatikaren-ingeniaritzako-gradua
   lugares:
     - campus: Campus de Bizkaia
+      provincia: Bizkaia
       titulaciones:
         - tipo: grado
           centro: Escuela Universitaria de Ingeniería Técnica Industrial de Bilbao
@@ -3488,10 +3488,10 @@ unis:
 - siglas: upv-ehu
   nombre: Universidad del País Vasco
   tipo: pública
-  provincia: Gipuzkoa
   web: https://www.ehu.eus/es/web/informatika-fakultatea
   lugares:
     - campus: Campus de Gipuzkoa
+      provincia: Gipuzkoa
       titulaciones:
         - tipo: grado
           centro: Facultad de Informática
@@ -3572,10 +3572,10 @@ unis:
 - siglas: upna
   nombre: Universidad Pública de Navarra
   tipo: pública
-  provincia: Navarra
   web: http://www.unavarra.es/ets-industrialesytelecos/estudios/grado/grado-en-ingenieria-informatica/presentacion?submenu=yes
   lugares:
     - campus: Campus de Arrosadia
+      provincia: Navarra
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingenieros Industriales y de Telecomunicación
@@ -3656,10 +3656,10 @@ unis:
 - siglas: ur
   nombre: Universidad de La Rioja
   tipo: pública
-  provincia: La Rioja
   web: http://www.unirioja.es/estudios/grados/ing_informatica/
   lugares:
     - campus: Campus de La Rioja
+      provincia: La Rioja
       titulaciones:
         - tipo: grado
           centro: Facultad de Ciencias, Estudios Agroalimentarios e Informática
@@ -3742,10 +3742,10 @@ unis:
 - siglas: unir
   nombre: Universidad Internacional de La Rioja
   tipo: privada
-  provincia: La Rioja
   web: http://www.unirioja.es/estudios/grados/ing_informatica/
   lugares:
     - campus: Campus de La Rioja
+      provincia: La Rioja
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería
@@ -3779,10 +3779,10 @@ unis:
 - siglas: ua
   nombre: Universidad de Alicante
   tipo: pública
-  provincia: Alicante
   web: http://cvnet.cpd.ua.es/webcvnet/planestudio/planestudiond.aspx?plan=C203
   lugares:
     - campus: Campus de Alicante
+      provincia: Alicante
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
@@ -3831,10 +3831,10 @@ unis:
 - siglas: umh
   nombre: Universidad Miguel Hernández de Elche
   tipo: pública
-  provincia: Alicante
   web: http://informatica.edu.umh.es/
   lugares:
     - campus: Campus de Elche
+      provincia: Alicante
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior de Elche
@@ -3883,10 +3883,10 @@ unis:
 - siglas: uji
   nombre: Universitat Jaume I
   tipo: pública
-  provincia: Castellón
   web: http://www.uji.es/infoest/estudis/grau/esp/ea/einf.html
   lugares:
     - campus: Campus de Castellón
+      provincia: Castellón
       titulaciones:
         - tipo: grado
           centro: Escuela Superior de Tecnología y Ciencias Experimentales
@@ -3935,10 +3935,10 @@ unis:
 - siglas: upv-alcoy
   nombre: Universidad Politécnica de Valencia
   tipo: pública
-  provincia: Valencia
   web: http://www.upv.es/titulaciones/GII-A/indexc.html
   lugares:
     - campus: Campus de Alcoy
+      provincia: Valencia
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior de Alcoy
@@ -3987,10 +3987,10 @@ unis:
 - siglas: upv-valencia
   nombre: Universidad Politécnica de Valencia
   tipo: pública
-  provincia: Valencia
   web: http://www.upv.es/entidades/ETSINF/
   lugares:
     - campus: Campus de Valencia
+      provincia: Valencia
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería Informática
@@ -4039,10 +4039,10 @@ unis:
 - siglas: uv
   nombre: Universidad de Valencia
   tipo: pública
-  provincia: Valencia
   web: http://www.uv.es/uvweb/universidad/es/estudios-grado/grau-1285846094474/Titulacio.html?id=1285847366789
   lugares:
     - campus: Campus de Valencia
+      provincia: Valencia
       titulaciones:
         - tipo: grado
           centro: Escuela Técnica Superior de Ingeniería
@@ -4091,13 +4091,13 @@ unis:
 - siglas: upc
   nombre: Universidad Politécnica de Cataluña
   tipo: pública
-  provincia:
   web:
   lugares:
     - campus: null
+      provincia: Jaén #TODO fake, fix (online)
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Jaén #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -4128,10 +4128,10 @@ unis:
 - siglas: ucav
   nombre: Universidad Católica de Santa Teresa de Jesús
   tipo: privada
-  provincia: Ávila
   web:
   lugares:
     - campus: Campus de Ávila
+      provincia: Ávila
       titulaciones:
         - tipo: grado
           centro: Campus de Ávila
@@ -4155,10 +4155,10 @@ unis:
 - siglas: uab
   nombre: Universidad Autónoma de Barcelona
   tipo: pública
-  provincia: Barcelona
   web:
   lugares:
     - campus: null
+      provincia: Barcelona
       titulaciones:
         - tipo: grado
           centro: Escuela de Ingeniería
@@ -4189,13 +4189,13 @@ unis:
 - siglas: uoc
   nombre: Universidad Obierta de Cataluña
   tipo: pública
-  provincia:
   web:
   lugares:
     - campus: null
+      provincia: Jaén #TODO fake, fix (online)
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Jaén #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -4223,10 +4223,10 @@ unis:
 - siglas: ub
   nombre: Universidad de Barcelona
   tipo: pública
-  provincia: Barcelona
   web:
   lugares:
     - campus: null
+      provincia: Barcelona
       titulaciones:
         - tipo: grado
           centro: Facultad de Matemáticas
@@ -4257,10 +4257,10 @@ unis:
 - siglas: ud
   nombre: Universidad de Deusto
   tipo: privada
-  provincia: Bizkaia
   web: http://www.ingenieria.deusto.es/cs/Satellite/ingenieria/es/estudios-0/grados-area-tic/programa-en-ingenieria-informatica
   lugares:
     - campus: null
+      provincia: Bizkaia
       titulaciones:
         - tipo: grado
           centro: Facultad de Ingeniería
@@ -4294,10 +4294,10 @@ unis:
 - siglas: udg
   nombre: Universidad de Girona
   tipo: pública
-  provincia: Girona
   web: http://www.udg.edu/tabid/10104/Default.aspx?ID=3105G0710&language=es-ES&IDE=99
   lugares:
     - campus: Campus de Gerona
+      provincia: Girona
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
@@ -4314,17 +4314,17 @@ unis:
               fuente:
             - año: 2014
               tipo: precio_por_crédito
-              fuente: 39.53
+              fuente:
             - año: 2015
               tipo: precio_por_crédito
-              fuente: 39.53
+              fuente:
 - siglas: udl-politecnica
   nombre: Universidad de Lérida
   tipo: pública
-  provincia: Lleida
   web: http://www.grauinformatica.udl.cat/es
   lugares:
     - campus: Campus de Lérida
+      provincia: Lleida
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
@@ -4352,10 +4352,10 @@ unis:
 - siglas: mu
   nombre: Universidad de Mondragón
   tipo: privada
-  provincia: Gipuzkoa
   web: http://www.mondragon.edu/es/estudios/grados/grado-en-ingenieria-en-informatica/
   lugares:
     - campus: Campus de Mondragón
+      provincia: Gipuzkoa
       titulaciones:
         - tipo: grado
           centro: Escuela Politécnica Superior
@@ -4384,13 +4384,13 @@ unis:
 - siglas: uned
   nombre: Universidad Nacional de Educación a Distancia
   tipo: pública
-  provincia:
   web:
   lugares:
-    - campus: null
+    - campus: Jaén #TODO fake, fix (online)
+      provincia: Jaén #TODO fake, fix (online)
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Jaén #TODO fake, fix (online)
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -4435,13 +4435,13 @@ unis:
 - siglas: UI1
   nombre: Universidad Isabel I de Castilla
   tipo: privada
-  provincia:
   web: http://www.ui1.es/oferta-academica/grado-en-ingenieria-informatica
   lugares:
     - campus:
+      provincia: Burgos #TODO uni online
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro Isabel I de Castilla #TODO
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -4462,13 +4462,13 @@ unis:
 - siglas: urv
   nombre: Universidad Rovira i Virgili
   tipo: pública
-  provincia: Barcelona
   web:
   lugares:
-    - campus: null
+    - campus: Campus Rovira i Virgili #TODO
+      provincia: Barcelona
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro Rovira i Virgili #TODO
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -4495,13 +4495,13 @@ unis:
 - siglas: url
   nombre: Universidad Ramón Llull
   tipo: privada
-  provincia: Barcelona
   web:
   lugares:
-    - campus: null
+    - campus: Campus Ramón Llull #TODO
+      provincia: Barcelona
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro Ramón Llul #TODO
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
@@ -4526,15 +4526,15 @@ unis:
 - siglas: upf
   nombre: Universidad Pompeu Fabra
   tipo: pública
-  provincia: Barcelona
   web: https://www.upf.edu/web/etic/grau-en-enginyeria-en-informatica
   lugares:
     - campus: Campus de Barcelona
+      provincia: Barcelona
       titulaciones:
         - tipo: grado
           centro: Escola d'Enginyeria
           titulación: Grado en Ingeniería Informática
-          tasas:
+          tasas: #TODO: revisar que las multiplicaciones de coeficientes esté bien
             - año: 2011
               tipo: precio_por_crédito
               fuente: http://www.observatoriuniversitari.org/wp-content/uploads/2012/05/preus_2011_121.pdf
@@ -4599,27 +4599,50 @@ unis:
                 tasas2: 48.82
                 tasas3: 105.78
                 tasas4: 146.46
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.upf.edu/documents/4388997/7808225/2019-20+Decret+de+Preus.pdf/a9cf9899-8f21-41a6-a178-420f49880808
+              cantidades:
+                tasas1: 39.53
+                tasas2: 47.44
+                tasas3: 102.78
+                tasas4: 142.31
 - siglas: ue-v
   nombre: Universidad Europea de Valencia
   tipo: privada
-  provincia: Valencia
-  web:
+  web: https://universidadeuropea.es/valencia
   lugares:
-    - campus: null
+    - campus: Campus de Valencia
+      provincia: Valencia
       titulaciones:
         - tipo: grado
-          centro:
+          centro: Centro de Valencia? #TODO
           titulación: Grado en Ingeniería Informática
-          tasas:
+          tasas: #TODO este precio no se infla luego? O lo que dice el BOE va a misa?
             - año: 2011
               tipo: precio_por_crédito
-              fuente:
+              fuente: https://www.boe.es/boe/dias/2011/08/12/pdfs/BOE-A-2011-13803.pdf
+              cantidades:
+                tasas1: 20.29
+                tasas2: 26.38
+                tasas3: 30.44
+                tasas4: 30.44
             - año: 2012
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2012/08/14/pdfs/BOE-A-2012-10852.pdf
+              cantidades:
+                tasas1: 20.89
+                tasas2: 28.90
+                tasas3: 54.32
+                tasas4: 75.21
             - año: 2013
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2013/08/08/pdfs/BOE-A-2013-8800.pdf
+              cantidades:
+                tasas1: 21.24
+                tasas2: 29.74
+                tasas3: 55.24
+                tasas4: 76.48
             - año: 2014
               tipo: precio_por_crédito
               fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
@@ -4630,9 +4653,41 @@ unis:
                 tasas4: 118.07
             - año: 2015
               tipo: precio_por_crédito
-              fuente: http://www.boe.es/boe/dias/2014/08/07/pdfs/BOE-A-2014-8552.pdf
+              fuente: https://www.boe.es/boe/dias/2015/07/02/pdfs/BOE-A-2015-7382.pdf
               cantidades:
                 tasas1: 23.85
                 tasas2: 41.73
                 tasas3: 88.55
                 tasas4: 118.07
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: https://www.boe.es/boe/dias/2016/07/07/pdfs/BOE-A-2016-6559.pdf
+              cantidades:
+                tasas1: 21.60
+                tasas2: 30.00
+                tasas3: 66.00
+                tasas4: 91.00
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.boe.es/boe/dias/2017/07/06/pdfs/BOE-A-2017-7877.pdf
+              cantidades:
+                tasas1: 21.60
+                tasas2: 30.60
+                tasas3: 67.32
+                tasas4: 92.82
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.boe.es/boe/dias/2018/08/03/pdfs/BOE-A-2018-11129.pdf
+              cantidades:
+                tasas1: 21.60
+                tasas2: 30.60
+                tasas3: 67.32
+                tasas4: 92.82
+            - año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.boe.es/boe/dias/2019/07/23/pdfs/BOE-A-2019-10808.pdf
+              cantidades:
+                tasas1: 21.60
+                tasas2: 30.60
+                tasas3: 67.32
+                tasas4: 92.82
