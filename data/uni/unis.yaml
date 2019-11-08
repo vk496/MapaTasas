@@ -76,16 +76,89 @@ unis:
                 tasas2: 25.25
                 tasas3: 54.71
                 tasas4: 75.75
-- siglas: ugr-ceuta
+- siglas: ugr
   nombre: Universidad de Granada
   tipo: pública
-  web: https://feetce.ugr.es
+  web: https://ugr.es
   lugares:
+    - campus: Campus de Granada
+      provincia: Granada
+      titulaciones:
+        - tipo: grado
+          centro: Escuela Técnica Superior de Ingenierías Informática y de Telecomunicación
+          web: http://etsiit.ugr.es/
+          titulación: Grado en Ingeniería Informática
+          tasas:
+            - año: 2011
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
+              cantidades:
+                tasas1: 12.20
+                tasas2: 14.10
+                tasas3: 18.30
+                tasas4: 18.30
+            - año: 2012
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
+              cantidades:
+                tasas1: 12.49
+                tasas2: 24.97
+                tasas3: 54.10
+                tasas4: 74.91
+            - año: 2013
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
+            - año: 2014
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
+            - año: 2015
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
+            - año: 2016
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
+            - año: 2017
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
+            - año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
     - campus: Campus Universitario de Ceuta
       provincia: Ceuta
       titulaciones:
         - tipo: grado
           centro: Facultad de Educación, Economía y Tecnología
+          web: https://feetce.ugr.es
           titulación: Grado en Ingeniería Informática
           tasas:
             - año: 2011
