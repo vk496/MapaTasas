@@ -1,4 +1,84 @@
 # Nota: ojito con los boletines que publican los precios. A veces esos precios son erróneos y sacan otro boletín para corregirlo
+apiVersion: "0.1"
+precios:
+- región: Andalucía
+  enseñanza:
+    - tipo: grado
+      experimentalidad:
+        - tipo: g3
+          tasas:
+            - &Andalucia_grado_g3_2011
+              año: 2011
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
+              cantidades:
+                tasas1: 12.20
+                tasas2: 14.10
+                tasas3: 18.30
+                tasas4: 18.30
+            - &Andalucia_grado_g3_2012
+              año: 2012
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
+              cantidades:
+                tasas1: 12.49
+                tasas2: 24.97
+                tasas3: 54.10
+                tasas4: 74.91
+            - &Andalucia_grado_g3_2013
+              año: 2013
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
+            - &Andalucia_grado_g3_2014
+              año: 2014
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
+            - &Andalucia_grado_g3_2015
+              año: 2015
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
+            - &Andalucia_grado_g3_2016
+              año: 2016
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
+            - &Andalucia_grado_g3_2017
+              año: 2017
+              tipo: precio_por_crédito
+              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
+            - &Andalucia_grado_g3_2018
+              año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
+              cantidades:
+                tasas1: 12.62
+                tasas2: 25.25
+                tasas3: 54.71
+                tasas4: 75.75
 unis:
 - siglas: ual
   nombre: Universidad de Almería
@@ -12,70 +92,14 @@ unis:
           centro: Escuela Superior de Ingeniería
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
-              cantidades:
-                tasas1: 12.20
-                tasas2: 14.10
-                tasas3: 18.30
-                tasas4: 18.30
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
-              cantidades:
-                tasas1: 12.49
-                tasas2: 24.97
-                tasas3: 54.10
-                tasas4: 74.91
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
+            - *Andalucia_grado_g3_2011
+            - *Andalucia_grado_g3_2012
+            - *Andalucia_grado_g3_2013
+            - *Andalucia_grado_g3_2014
+            - *Andalucia_grado_g3_2015
+            - *Andalucia_grado_g3_2016
+            - *Andalucia_grado_g3_2017
+            - *Andalucia_grado_g3_2018
 - siglas: ugr
   nombre: Universidad de Granada
   tipo: pública
@@ -89,70 +113,14 @@ unis:
           web: http://etsiit.ugr.es/
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
-              cantidades:
-                tasas1: 12.20
-                tasas2: 14.10
-                tasas3: 18.30
-                tasas4: 18.30
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
-              cantidades:
-                tasas1: 12.49
-                tasas2: 24.97
-                tasas3: 54.10
-                tasas4: 74.91
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
+            - *Andalucia_grado_g3_2011
+            - *Andalucia_grado_g3_2012
+            - *Andalucia_grado_g3_2013
+            - *Andalucia_grado_g3_2014
+            - *Andalucia_grado_g3_2015
+            - *Andalucia_grado_g3_2016
+            - *Andalucia_grado_g3_2017
+            - *Andalucia_grado_g3_2018
     - campus: Campus Universitario de Ceuta
       provincia: Ceuta
       titulaciones:
@@ -161,70 +129,14 @@ unis:
           web: https://feetce.ugr.es
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
-              cantidades:
-                tasas1: 12.20
-                tasas2: 14.10
-                tasas3: 18.30
-                tasas4: 18.30
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
-              cantidades:
-                tasas1: 12.49
-                tasas2: 24.97
-                tasas3: 54.10
-                tasas4: 74.91
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
+            - *Andalucia_grado_g3_2011
+            - *Andalucia_grado_g3_2012
+            - *Andalucia_grado_g3_2013
+            - *Andalucia_grado_g3_2014
+            - *Andalucia_grado_g3_2015
+            - *Andalucia_grado_g3_2016
+            - *Andalucia_grado_g3_2017
+            - *Andalucia_grado_g3_2018
 - siglas: uma
   nombre: Universidad de Málaga
   tipo: pública
@@ -237,70 +149,14 @@ unis:
           centro: Escuela Técnica Superior de Ingeniería Informática
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
-              cantidades:
-                tasas1: 12.20
-                tasas2: 14.10
-                tasas3: 18.30
-                tasas4: 18.30
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
-              cantidades:
-                tasas1: 12.49
-                tasas2: 24.97
-                tasas3: 54.10
-                tasas4: 74.91
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
+            - *Andalucia_grado_g3_2011
+            - *Andalucia_grado_g3_2012
+            - *Andalucia_grado_g3_2013
+            - *Andalucia_grado_g3_2014
+            - *Andalucia_grado_g3_2015
+            - *Andalucia_grado_g3_2016
+            - *Andalucia_grado_g3_2017
+            - *Andalucia_grado_g3_2018
 - siglas: us
   nombre: Universidad de Sevilla
   tipo: pública
@@ -313,70 +169,14 @@ unis:
           centro: Escuela Técnica Superior de Ingeniería Informática
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
-              cantidades:
-                tasas1: 12.20
-                tasas2: 14.10
-                tasas3: 18.30
-                tasas4: 18.30
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
-              cantidades:
-                tasas1: 12.49
-                tasas2: 24.97
-                tasas3: 54.10
-                tasas4: 74.91
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
+            - *Andalucia_grado_g3_2011
+            - *Andalucia_grado_g3_2012
+            - *Andalucia_grado_g3_2013
+            - *Andalucia_grado_g3_2014
+            - *Andalucia_grado_g3_2015
+            - *Andalucia_grado_g3_2016
+            - *Andalucia_grado_g3_2017
+            - *Andalucia_grado_g3_2018
 - siglas: upo
   nombre: Universidad Pablo de Olavide
   tipo: pública
@@ -389,70 +189,14 @@ unis:
           centro: Escuela Politécnica Superior
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
-              cantidades:
-                tasas1: 12.20
-                tasas2: 14.10
-                tasas3: 18.30
-                tasas4: 18.30
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
-              cantidades:
-                tasas1: 12.49
-                tasas2: 24.97
-                tasas3: 54.10
-                tasas4: 74.91
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
+            - *Andalucia_grado_g3_2011
+            - *Andalucia_grado_g3_2012
+            - *Andalucia_grado_g3_2013
+            - *Andalucia_grado_g3_2014
+            - *Andalucia_grado_g3_2015
+            - *Andalucia_grado_g3_2016
+            - *Andalucia_grado_g3_2017
+            - *Andalucia_grado_g3_2018
 - siglas: uca
   nombre: Universidad de Cádiz
   tipo: pública
@@ -465,70 +209,14 @@ unis:
           centro: Escuela Superior de Ingeniería
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
-              cantidades:
-                tasas1: 12.20
-                tasas2: 14.10
-                tasas3: 18.30
-                tasas4: 18.30
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
-              cantidades:
-                tasas1: 12.49
-                tasas2: 24.97
-                tasas3: 54.10
-                tasas4: 74.91
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
+            - *Andalucia_grado_g3_2011
+            - *Andalucia_grado_g3_2012
+            - *Andalucia_grado_g3_2013
+            - *Andalucia_grado_g3_2014
+            - *Andalucia_grado_g3_2015
+            - *Andalucia_grado_g3_2016
+            - *Andalucia_grado_g3_2017
+            - *Andalucia_grado_g3_2018
 - siglas: uco
   nombre: Universidad de Córdoba
   tipo: pública
@@ -541,70 +229,14 @@ unis:
           centro: Escuela Politécnica Superior de Córdoba
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
-              cantidades:
-                tasas1: 12.20
-                tasas2: 14.10
-                tasas3: 18.30
-                tasas4: 18.30
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
-              cantidades:
-                tasas1: 12.49
-                tasas2: 24.97
-                tasas3: 54.10
-                tasas4: 74.91
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
+            - *Andalucia_grado_g3_2011
+            - *Andalucia_grado_g3_2012
+            - *Andalucia_grado_g3_2013
+            - *Andalucia_grado_g3_2014
+            - *Andalucia_grado_g3_2015
+            - *Andalucia_grado_g3_2016
+            - *Andalucia_grado_g3_2017
+            - *Andalucia_grado_g3_2018
 - siglas: uja
   nombre: Universidad de Jaén
   tipo: pública
@@ -617,70 +249,14 @@ unis:
           centro: Escuela Politécnica Superior de Jaén
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
-              cantidades:
-                tasas1: 12.20
-                tasas2: 14.10
-                tasas3: 18.30
-                tasas4: 18.30
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
-              cantidades:
-                tasas1: 12.49
-                tasas2: 24.97
-                tasas3: 54.10
-                tasas4: 74.91
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
+            - *Andalucia_grado_g3_2011
+            - *Andalucia_grado_g3_2012
+            - *Andalucia_grado_g3_2013
+            - *Andalucia_grado_g3_2014
+            - *Andalucia_grado_g3_2015
+            - *Andalucia_grado_g3_2016
+            - *Andalucia_grado_g3_2017
+            - *Andalucia_grado_g3_2018
 - siglas: uhu
   nombre: Universidad de Huelva
   tipo: pública
@@ -693,70 +269,14 @@ unis:
           centro: Escuela Técnica Superior de Ingeniería
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf
-              cantidades:
-                tasas1: 12.20
-                tasas2: 14.10
-                tasas3: 18.30
-                tasas4: 18.30
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2012/142/BOJA12-142-00393.pdf
-              cantidades:
-                tasas1: 12.49
-                tasas2: 24.97
-                tasas3: 54.10
-                tasas4: 74.91
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2013/139/BOJA13-139-00268.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2014/138/BOJA14-138-00294.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2015/137/BOJA15-137-00121-12543-01_00073590.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2016/121/BOJA16-121-00007-11510-01_00094004.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.juntadeandalucia.es/boja/2017/134/BOJA17-134-00010-12647-01_00117823.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.juntadeandalucia.es/boja/2018/131/BOJA18-131-00012-11786-01_00139107.pdf
-              cantidades:
-                tasas1: 12.62
-                tasas2: 25.25
-                tasas3: 54.71
-                tasas4: 75.75
+            - *Andalucia_grado_g3_2011
+            - *Andalucia_grado_g3_2012
+            - *Andalucia_grado_g3_2013
+            - *Andalucia_grado_g3_2014
+            - *Andalucia_grado_g3_2015
+            - *Andalucia_grado_g3_2016
+            - *Andalucia_grado_g3_2017
+            - *Andalucia_grado_g3_2018
 - siglas: unizar
   nombre: Universidad de Zaragoza
   tipo: pública

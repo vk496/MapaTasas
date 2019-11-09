@@ -7,8 +7,75 @@ schema;url:
 
 type: map
 mapping:
+ "apiVersion":
+    type: str
+    req: true
+    pattern: \d+\.\d+
+ "precios":
+    type: seq
+    sequence:
+      - type: map
+        mapping:
+          "región":
+            type: str
+            unique: true
+            enum: [Andalucía,Aragón,Principado de Asturias,Islas Baleares,Canarias,Cantabria,Castilla-La Mancha,Castilla y León,Cataluña,Comunidad Valenciana,Extremadura,Galicia,La Rioja,Comunidad de Madrid,Región de Murcia,Comunidad Foral de Navarra,País Vasco]
+          "enseñanza":
+            type: seq
+            sequence:
+              - type: map
+                mapping:
+                  "tipo":
+                    type: str
+                    enum: [grado,máster]
+                  "experimentalidad":
+                    type: seq
+                    sequence:
+                      - type: map
+                        mapping:
+                          "tipo":
+                            type: str
+                            enum: [g1,g2,g3,g4,g5]
+                          "tasas": &tasas_structure
+                            type: seq
+                            sequence:
+                              - type: map
+                                func: check_tasas_type # Extensions
+                                mapping:
+                                  "año":
+                                    type: int
+                                    req: true
+                                    unique: true
+                                    range:
+                                      min: 1980
+                                      max: 2020 #Editar conforme haga falta
+                                  "fuente":
+                                    include: url
+                                  "comentario":
+                                    type: str
+                                  "tipo":
+                                    type: str
+                                    req: true
+                                    enum: [cantidad_fija, precio_por_crédito]
+                                  "cantidad":
+                                    type: number
+                                  "cantidades":
+                                    type: map
+                                    func: check_tasas_exists
+                                    mapping:
+                                      "tasas1":
+                                        type: number
+                                      "tasas2":
+                                        type: number
+                                      "tasas3":
+                                        type: number
+                                      "tasas4":
+                                        type: number
+                            
+
  "unis":
     type: seq
+    req: true
     sequence:
       - type: map
         mapping:
@@ -59,37 +126,4 @@ mapping:
                             type: map
                             allowempty: True
                           "tasas":
-                            type: seq
-                            sequence:
-                              - type: map
-                                func: check_tasas_type # Extensions
-                                mapping:
-                                  "año":
-                                    type: int
-                                    req: true
-                                    unique: true
-                                    range:
-                                      min: 1980
-                                      max: 2020 #Editar conforme haga falta
-                                  "fuente":
-                                    include: url
-                                  "comentario":
-                                    type: str
-                                  "tipo":
-                                    type: str
-                                    req: true
-                                    enum: [cantidad_fija, precio_por_crédito]
-                                  "cantidad":
-                                    type: number
-                                  "cantidades":
-                                    type: map
-                                    func: check_tasas_exists
-                                    mapping:
-                                      "tasas1":
-                                        type: number
-                                      "tasas2":
-                                        type: number
-                                      "tasas3":
-                                        type: number
-                                      "tasas4":
-                                        type: number
+                            <<: *tasas_structure
