@@ -1,4 +1,5 @@
-# Schema
+# GPLv3
+# Author: Valentín Kivachuk <vk496>
 schema;url:
   type: str
   # https://gist.github.com/gruber/8891611
@@ -22,22 +23,27 @@ mapping:
             enum: [Andalucía,Aragón,Principado de Asturias,Islas Baleares,Canarias,Cantabria,Castilla-La Mancha,Castilla y León,Cataluña,Comunidad Valenciana,Extremadura,Galicia,La Rioja,Comunidad de Madrid,Región de Murcia,Comunidad Foral de Navarra,País Vasco]
           "enseñanza":
             type: seq
+            req: true
             sequence:
               - type: map
                 mapping:
                   "tipo":
                     type: str
                     enum: [grado,máster]
+                    unique: true
                   "experimentalidad":
                     type: seq
+                    req: true
                     sequence:
                       - type: map
                         mapping:
                           "tipo":
                             type: str
-                            enum: [g1,g2,g3,g4,g5]
+                            enum: [g1,g2,g3,g4,g5,ga,gb1,gb2,gc1,gc2,gd,ge,g2a]
+                            unique: true
                           "tasas": &tasas_structure
                             type: seq
+                            req: true
                             sequence:
                               - type: map
                                 func: check_tasas_type # Extensions
@@ -47,8 +53,8 @@ mapping:
                                     req: true
                                     unique: true
                                     range:
-                                      min: 1980
-                                      max: 2020 #Editar conforme haga falta
+                                      min: 2011
+                                      max: 2020 #Editar conforme haga falta?
                                   "fuente":
                                     include: url
                                   "comentario":

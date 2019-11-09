@@ -1,3 +1,4 @@
+# GPLv3
 # Nota: ojito con los boletines que publican los precios. A veces esos precios son erróneos y sacan otro boletín para corregirlo
 apiVersion: "0.1"
 precios:
@@ -79,6 +80,581 @@ precios:
                 tasas2: 25.25
                 tasas3: 54.71
                 tasas4: 75.75
+- región: Aragón
+  enseñanza:
+    - tipo: grado
+      experimentalidad:
+        - tipo: g3
+          tasas:
+            - &Aragon_grado_g3_2011
+              año: 2011
+              tipo: precio_por_crédito
+              fuente: http://wzar.unizar.es/servicios/primer/2matricula/economica/decreto11.pdf
+              cantidades:
+                tasas1: 16.45
+                tasas2: 24.53
+                tasas3: 36.23
+                tasas4: 36.32
+            - &Aragon_grado_g3_2012
+              año: 2012
+              tipo: precio_por_crédito
+              fuente: http://wzar.unizar.es/servicios/primer/2matricula/economica/decreto12.pdf
+              cantidades:
+                tasas1: 21.70
+                tasas2: 32.25
+                tasas3: 69.89
+                tasas4: 69.89
+            - &Aragon_grado_g3_2013
+              año: 2013
+              tipo: precio_por_crédito
+              fuente: http://wzar.unizar.es/servicios/primer/2matricula/economica/decreto13.pdf
+              cantidades:
+                tasas1: 22.48
+                tasas2: 33.41
+                tasas3: 72.46
+                tasas4: 100.24
+            - &Aragon_grado_g3_2014
+              año: 2014
+              tipo: precio_por_crédito
+              fuente: http://wzar.unizar.es/servicios/primer/2matricula/economica/decreto14.pdf
+              cantidades:
+                tasas1: 22.48
+                tasas2: 33.41
+                tasas3: 72.41
+                tasas4: 100.24
+            - &Aragon_grado_g3_2015
+              año: 2015
+              tipo: precio_por_crédito
+              fuente: http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=861195945757
+              cantidades:
+                tasas1: 22.93
+                tasas2: 34.08
+                tasas3: 73.86
+                tasas4: 102.24
+            - &Aragon_grado_g3_2016
+              año: 2016
+              tipo: precio_por_crédito
+              fuente: http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=914630825151
+              cantidades:
+                tasas1: 22.93
+                tasas2: 34.08
+                tasas3: 73.86
+                tasas4: 102.24
+            - &Aragon_grado_g3_2017
+              año: 2017
+              tipo: precio_por_crédito
+              fuente: http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=970276660606
+              cantidades:
+                tasas1: 21.66
+                tasas2: 34.08
+                tasas3: 73.86
+                tasas4: 102.24
+            - &Aragon_grado_g3_2018
+              año: 2018
+              tipo: precio_por_crédito
+              fuente: https://academico.unizar.es/sites/academico.unizar.es/files/archivos/gradoymaster/economica/precios_publicos_2018-2019.pdf
+              cantidades:
+                tasas1: 21.66
+                tasas2: 34.08
+                tasas3: 73.86
+                tasas4: 102.24
+            - &Aragon_grado_g3_2019
+              año: 2019
+              tipo: precio_por_crédito
+              fuente: https://academico.unizar.es/sites/academico.unizar.es/files/webform/boa_precios_publicos_2019-2020.pdf
+              cantidades:
+                tasas1: 21.66
+                tasas2: 34.08
+                tasas3: 73.86
+                tasas4: 102.24
+- región: Castilla y León
+  enseñanza:
+    - tipo: grado
+      experimentalidad:
+        - tipo: gb1
+          tasas:
+            - &CyL_grado_gb1_2011 #Grupo 3.2
+              año: 2011
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2011/07/04/pdf/BOCYL-D-04072011-1.pdf
+              cantidades:
+                tasas1: 20.40
+                tasas2: 30.60
+                tasas3: 48.96
+                tasas4: 48.96
+            - &CyL_grado_gb1_2012
+              año: 2012
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2012/07/09/pdf/BOCYL-D-09072012-2.pdf
+              cantidades:
+                tasas1: 27.07
+                tasas2: 40.61
+                tasas3: 87.98
+                tasas4: 121.82
+            - &CyL_grado_gb1_2013
+              año: 2013
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2013/07/05/pdf/BOCYL-D-05072013-3.pdf
+              cantidades:
+                tasas1: 27.45
+                tasas2: 41.17
+                tasas3: 89.21
+                tasas4: 123.52
+            - &CyL_grado_gb1_2014
+              año: 2014
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - &CyL_grado_gb1_2015
+              año: 2015
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - &CyL_grado_gb1_2016
+              año: 2016
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - &CyL_grado_gb1_2017
+              año: 2017
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
+              cantidades:
+                tasas1: 27.72
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - &CyL_grado_gb1_2018
+              año: 2018
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
+              cantidades:
+                tasas1: 26.33
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+            - &CyL_grado_gb1_2019
+              año: 2019
+              tipo: precio_por_crédito
+              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
+              cantidades:
+                tasas1: 21.01
+                tasas2: 41.59
+                tasas3: 90.10
+                tasas4: 124.76
+- región: Castilla-La Mancha
+  enseñanza:
+    - tipo: grado
+      experimentalidad:
+        - tipo: gb1
+          tasas:
+            - &ClM_grado_g4_2011
+              año: 2011
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2011/06/15/pdf/2011_9178.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 15.40
+                tasas2: 20.00
+                tasas3: 28.00
+                tasas4: 42.00
+            - &ClM_grado_g4_2012
+              año: 2012
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2012/07/17/pdf/2012_10376.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.53
+                tasas2: 37.07
+                tasas3: 80.31
+                tasas4: 111.20
+            - &ClM_grado_g4_2013
+              año: 2013
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2013/07/15/pdf/2013_8830.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.79
+                tasas2: 37.58
+                tasas3: 81.43
+                tasas4: 112.75
+            - &ClM_grado_g4_2014
+              año: 2014
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2014/07/14/pdf/2014_9138.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - &ClM_grado_g4_2015
+              año: 2015
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2015/04/24/pdf/2015_4939.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - &ClM_grado_g4_2016
+              año: 2016
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2016/06/23/pdf/2016_6794.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - &ClM_grado_g4_2017
+              año: 2017
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2017/06/19/pdf/2017_7333.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - &ClM_grado_g4_2018
+              año: 2018
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2018/07/13/pdf/2018_8259.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+            - &ClM_grado_g4_2019
+              año: 2019
+              tipo: precio_por_crédito
+              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2019/06/07/pdf/2019_5512.pdf&tipo=rutaDocm
+              cantidades:
+                tasas1: 18.87
+                tasas2: 37.73
+                tasas3: 81.76
+                tasas4: 113.20
+- región: Galicia
+  enseñanza:
+    - tipo: grado
+      experimentalidad:
+        - tipo: g2a
+          tasas:
+            - &Galicia_grado_g2a_2011
+              año: 2011
+              tipo: precio_por_crédito
+              fuente: http://www.xunta.es/dog/Publicados/2011/20110707/AnuncioC3F1-290611-3782_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 16.03
+                tasas3: 18.81
+                tasas4: 20.91
+            - &Galicia_grado_g2a_2012
+              año: 2012
+              tipo: precio_por_crédito
+              fuente: http://www.xunta.es/dog/Publicados/2012/20120716/AnuncioG0164-120712-0005_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - &Galicia_grado_g2a_2013
+              año: 2013
+              tipo: precio_por_crédito
+              fuente: http://www.xunta.es/dog/Publicados/2013/20130802/AnuncioG0164-240713-0009_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - &Galicia_grado_g2a_2014
+              año: 2014
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2014/20140701/AnuncioG0164-260614-0003_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - &Galicia_grado_g2a_2015
+              año: 2015
+              tipo: precio_por_crédito
+              fuente: http://www.xunta.es/dog/Publicados/2015/20150702/AnuncioG0164-260615-0004_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - &Galicia_grado_g2a_2016
+              año: 2016
+              tipo: precio_por_crédito
+              fuente: http://www.xunta.gal/dog/Publicados/2016/20160712/AnuncioG0164-010716-0003_es.html
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - &Galicia_grado_g2a_2017
+              año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2017/20170714/AnuncioG0164-100717-0001_es.pdf
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - &Galicia_grado_g2a_2018
+              año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2018/20180705/AnuncioG0164-270618-0001_es.pdf
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+            - &Galicia_grado_g2a_2019
+              año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.xunta.gal/dog/Publicados/2019/20190711/AnuncioG0534-050719-0003_es.pdf
+              cantidades:
+                tasas1: 13.93
+                tasas2: 19.30
+                tasas3: 31.21
+                tasas4: 39.79
+- región: Comunidad de Madrid
+  enseñanza:
+    - tipo: grado
+      experimentalidad:
+        - tipo: g2
+          tasas:
+            - &Madrid_grado_g2_2011
+              año: 2011
+              tipo: precio_por_crédito
+              fuente: http://www.emes.es/linkclick.aspx?fileticket=YaVrLQAAmHk%3D&tabid=46&mid=355&forcedownload=true&name=d_95-2011.pdf
+              cantidades:
+                tasas1: 17.01
+                tasas2: 21.26
+                tasas3: 28.91
+                tasas4: 34.02
+            - &Madrid_grado_g2_2012
+              año: 2012
+              tipo: precio_por_crédito
+              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=7758&cdestado=P
+              cantidades:
+                tasas1: 26.81
+                tasas2: 47.61
+                tasas3: 89.28
+                tasas4: 119.04
+            - &Madrid_grado_g2_2013
+              año: 2013
+              tipo: precio_por_crédito
+              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=8216&cdestado=P
+              cantidades:
+                tasas1: 31.00
+                tasas2: 57.13
+                tasas3: 107.14
+                tasas4: 142.85
+            - &Madrid_grado_g2_2014
+              año: 2014
+              tipo: precio_por_crédito
+              fuente: http://w3.bocm.es/boletin/CM_Orden_BOCM/2014/07/21/BOCM-20140721-5.PDF
+              cantidades:
+                tasas1: 31.00
+                tasas2: 57.13
+                tasas3: 107.14
+                tasas4: 142.82
+            - &Madrid_grado_g2_2015
+              año: 2015
+              tipo: precio_por_crédito
+              fuente: http://www.bocm.es/boletin/CM_Orden_BOCM/2015/08/03/BOCM-20150803-15.PDF
+              cantidades:
+                tasas1: 27.90
+                tasas2: 51.42
+                tasas3: 96.43
+                tasas4: 128.57
+- región: País Vasco
+  enseñanza:
+    - tipo: grado
+      experimentalidad:
+        - tipo: g2
+          tasas:
+            - &PV_grado_g2_2011
+              año: 2011
+              tipo: precio_por_crédito
+              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2011/07/1103564a.pdf
+              cantidades:
+                tasas1: 18.29
+                tasas2: 21.59
+                tasas3: 21.59
+                tasas4: 21.59
+            - &PV_grado_g2_2012
+              año: 2012
+              tipo: precio_por_crédito
+              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2012/07/1203198a.pdf
+              cantidades:
+                tasas1: 18.66
+                tasas2: 22.67
+                tasas3: 28.56
+                tasas4: 28.56
+            - &PV_grado_g2_2013
+              año: 2013
+              tipo: precio_por_crédito
+              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2013/07/1303184a.pdf
+              cantidades:
+                tasas1: 19.11
+                tasas2: 24.03
+                tasas3: 31.99
+                tasas4: 31.99
+            - &PV_grado_g2_2014
+              año: 2014
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.net/r48-bopv2/es/bopv2/datos/2014/07/1403173a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - &PV_grado_g2_2015
+              año: 2015
+              tipo: precio_por_crédito
+              fuente: http://www.jusap.ejgv.euskadi.eus/r47-bopvapps/es/bopv2/datos/2015/07/1503138a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - &PV_grado_g2_2016
+              año: 2016
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - &PV_grado_g2_2017
+              año: 2017
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - &PV_grado_g2_2018
+              año: 2018
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 41.59
+                tasas4: 41.59
+            - &PV_grado_g2_2019
+              año: 2019
+              tipo: precio_por_crédito
+              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
+              cantidades:
+                tasas1: 19.19
+                tasas2: 27.63
+                tasas3: 42.53
+                tasas4: 58.87
+- región: La Rioja
+  enseñanza:
+    - tipo: grado
+      experimentalidad:
+        - tipo: g2
+          tasas:
+            - &LaRioja_grado_g2_2011
+              año: 2011
+              tipo: precio_por_crédito
+              fuente: http://www.larioja.org/npRioja/default/defaultpage.jsp?idtab=724659&tipo=2&fecha=2011/08/31&referencia=897312-1-HTML-437659-X
+              cantidades:
+                tasas1: 23.13
+                tasas2: 33.55
+                tasas3: 50.32
+                tasas4: 50.32
+            - &LaRioja_grado_g2_2012
+              año: 2012
+              tipo: precio_por_crédito
+              fuente: http://www.larioja.org/npRioja/default/defaultpage.jsp?idtab=724659&tipo=2&fecha=2012/09/07&referencia=957080-3-HTML-453897-X
+              cantidades:
+                tasas1: 20.90
+                tasas2: 41.80
+                tasas3: 90.57
+                tasas4: 125.40
+            - &LaRioja_grado_g2_2013
+              año: 2013
+              tipo: precio_por_crédito
+              fuente: http://www.unirioja.es/estudiantes/matricula/precios.shtml
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
+            - &LaRioja_grado_g2_2014
+              año: 2014
+              tipo: precio_por_crédito
+              fuente: http://www.unirioja.es/estudiantes/matricula/precios.shtml
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
+            - &LaRioja_grado_g2_2015
+              año: 2015
+              tipo: precio_por_crédito
+              fuente: http://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=2542287-1-PDF-495971
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
+            - &LaRioja_grado_g2_2016
+              año: 2016
+              tipo: precio_por_crédito
+              fuente: http://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=3837390-1-PDF-504204
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
+            - &LaRioja_grado_g2_2017
+              año: 2017
+              tipo: precio_por_crédito
+              fuente: https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=6083985-1-PDF-512440-X
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
+            - &LaRioja_grado_g2_2018
+              año: 2018
+              tipo: precio_por_crédito
+              comentario: No se ha publicado Boletín nuevo #TODO: revisar si es cierto
+              fuente: https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=6083985-1-PDF-512440-X
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
+            - &LaRioja_grado_g2_2019
+              año: 2019
+              tipo: precio_por_crédito
+              comentario: No se ha publicado Boletín nuevo #TODO: revisar si es cierto
+              fuente: https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=6083985-1-PDF-512440-X
+              cantidades:
+                tasas1: 21.21
+                tasas2: 42.43
+                tasas3: 91.93
+                tasas4: 127.28
 unis:
 - siglas: ual
   nombre: Universidad de Almería
@@ -289,79 +865,15 @@ unis:
           centro: Escuela de Ingeniería y Arquitectura
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://wzar.unizar.es/servicios/primer/2matricula/economica/decreto11.pdf
-              cantidades:
-                tasas1: 16.45
-                tasas2: 24.53
-                tasas3: 36.23
-                tasas4: 36.32
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://wzar.unizar.es/servicios/primer/2matricula/economica/decreto12.pdf
-              cantidades:
-                tasas1: 21.70
-                tasas2: 32.25
-                tasas3: 69.89
-                tasas4: 69.89
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://wzar.unizar.es/servicios/primer/2matricula/economica/decreto13.pdf
-              cantidades:
-                tasas1: 22.48
-                tasas2: 33.41
-                tasas3: 72.46
-                tasas4: 100.24
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://wzar.unizar.es/servicios/primer/2matricula/economica/decreto14.pdf
-              cantidades:
-                tasas1: 22.48
-                tasas2: 33.41
-                tasas3: 72.41
-                tasas4: 100.24
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=861195945757
-              cantidades:
-                tasas1: 22.93
-                tasas2: 34.08
-                tasas3: 73.86
-                tasas4: 102.24
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=914630825151
-              cantidades:
-                tasas1: 22.93
-                tasas2: 34.08
-                tasas3: 73.86
-                tasas4: 102.24
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=970276660606
-              cantidades:
-                tasas1: 21.66
-                tasas2: 34.08
-                tasas3: 73.86
-                tasas4: 102.24
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://academico.unizar.es/sites/academico.unizar.es/files/archivos/gradoymaster/economica/precios_publicos_2018-2019.pdf
-              cantidades:
-                tasas1: 21.66
-                tasas2: 34.08
-                tasas3: 73.86
-                tasas4: 102.24
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://academico.unizar.es/sites/academico.unizar.es/files/webform/boa_precios_publicos_2019-2020.pdf
-              cantidades:
-                tasas1: 21.66
-                tasas2: 34.08
-                tasas3: 73.86
-                tasas4: 102.24
-
+            - *Aragon_grado_g3_2011
+            - *Aragon_grado_g3_2012
+            - *Aragon_grado_g3_2013
+            - *Aragon_grado_g3_2014
+            - *Aragon_grado_g3_2015
+            - *Aragon_grado_g3_2016
+            - *Aragon_grado_g3_2017
+            - *Aragon_grado_g3_2018
+            - *Aragon_grado_g3_2019
 - siglas: usj
   nombre: Universidad de San Jorge
   tipo: privada
@@ -991,78 +1503,15 @@ unis:
           web: http://www.usal.es/webusal/node/4558
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2011/07/15/pdf/BOCYL-D-15072011-1.pdf
-              cantidades:
-                tasas1: 20.40
-                tasas2: 30.60
-                tasas3: 48.96
-                tasas4: 48.96
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2012/07/09/pdf/BOCYL-D-09072012-2.pdf
-              cantidades:
-                tasas1: 27.07
-                tasas2: 40.61
-                tasas3: 87.98
-                tasas4: 121.82
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2013/07/05/pdf/BOCYL-D-05072013-3.pdf
-              cantidades:
-                tasas1: 27.45
-                tasas2: 41.17
-                tasas3: 89.21
-                tasas4: 123.52
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
-              cantidades:
-                tasas1: 26.33
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
-              cantidades:
-                tasas1: 21.01
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
+            - *CyL_grado_gb1_2011
+            - *CyL_grado_gb1_2012
+            - *CyL_grado_gb1_2013
+            - *CyL_grado_gb1_2014
+            - *CyL_grado_gb1_2015
+            - *CyL_grado_gb1_2016
+            - *CyL_grado_gb1_2017
+            - *CyL_grado_gb1_2018
+            - *CyL_grado_gb1_2019
     - campus: Campus de Zamora
       provincia: Zamora
       titulaciones:
@@ -1071,78 +1520,15 @@ unis:
           web: http://www.usal.es/webusal/node/4540
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2011/07/15/pdf/BOCYL-D-15072011-1.pdf
-              cantidades:
-                tasas1: 20.40
-                tasas2: 30.60
-                tasas3: 48.96
-                tasas4: 48.96
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2012/07/09/pdf/BOCYL-D-09072012-2.pdf
-              cantidades:
-                tasas1: 27.07
-                tasas2: 40.61
-                tasas3: 87.98
-                tasas4: 121.82
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2013/07/05/pdf/BOCYL-D-05072013-3.pdf
-              cantidades:
-                tasas1: 27.45
-                tasas2: 41.17
-                tasas3: 89.21
-                tasas4: 123.52
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
-              cantidades:
-                tasas1: 26.33
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
-              cantidades:
-                tasas1: 21.01
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
+            - *CyL_grado_gb1_2011
+            - *CyL_grado_gb1_2012
+            - *CyL_grado_gb1_2013
+            - *CyL_grado_gb1_2014
+            - *CyL_grado_gb1_2015
+            - *CyL_grado_gb1_2016
+            - *CyL_grado_gb1_2017
+            - *CyL_grado_gb1_2018
+            - *CyL_grado_gb1_2019
 - siglas: uva
   nombre: Universidad de Valladolid
   tipo: pública
@@ -1156,78 +1542,15 @@ unis:
           web: http://www.uva.es/export/sites/uva/2.docencia/2.01.grados/2.01.02.ofertaformativagrados/2.01.02.01.alfabetica/Grado-en-Ingenieria-Informatica-00001/
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2011/07/15/pdf/BOCYL-D-15072011-1.pdf
-              cantidades:
-                tasas1: 20.40
-                tasas2: 30.60
-                tasas3: 48.96
-                tasas4: 48.96
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2012/07/09/pdf/BOCYL-D-09072012-2.pdf
-              cantidades:
-                tasas1: 27.07
-                tasas2: 40.61
-                tasas3: 87.98
-                tasas4: 121.82
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2013/07/05/pdf/BOCYL-D-05072013-3.pdf
-              cantidades:
-                tasas1: 27.45
-                tasas2: 41.17
-                tasas3: 89.21
-                tasas4: 123.52
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
-              cantidades:
-                tasas1: 26.33
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
-              cantidades:
-                tasas1: 21.01
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
+            - *CyL_grado_gb1_2011
+            - *CyL_grado_gb1_2012
+            - *CyL_grado_gb1_2013
+            - *CyL_grado_gb1_2014
+            - *CyL_grado_gb1_2015
+            - *CyL_grado_gb1_2016
+            - *CyL_grado_gb1_2017
+            - *CyL_grado_gb1_2018
+            - *CyL_grado_gb1_2019
     - campus: Campus de Segovia
       provincia: Segovia
       titulaciones:
@@ -1236,78 +1559,15 @@ unis:
           web: http://www.uva.es/export/sites/uva/2.docencia/2.01.grados/2.01.02.ofertaformativagrados/2.01.02.01.alfabetica/Grado-en-Ingenieria-Informatica-de-Servicios-y-Aplicaciones/
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2011/07/15/pdf/BOCYL-D-15072011-1.pdf
-              cantidades:
-                tasas1: 20.40
-                tasas2: 30.60
-                tasas3: 48.96
-                tasas4: 48.96
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2012/07/09/pdf/BOCYL-D-09072012-2.pdf
-              cantidades:
-                tasas1: 27.07
-                tasas2: 40.61
-                tasas3: 87.98
-                tasas4: 121.82
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2013/07/05/pdf/BOCYL-D-05072013-3.pdf
-              cantidades:
-                tasas1: 27.45
-                tasas2: 41.17
-                tasas3: 89.21
-                tasas4: 123.52
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
-              cantidades:
-                tasas1: 26.33
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
-              cantidades:
-                tasas1: 21.01
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
+            - *CyL_grado_gb1_2011
+            - *CyL_grado_gb1_2012
+            - *CyL_grado_gb1_2013
+            - *CyL_grado_gb1_2014
+            - *CyL_grado_gb1_2015
+            - *CyL_grado_gb1_2016
+            - *CyL_grado_gb1_2017
+            - *CyL_grado_gb1_2018
+            - *CyL_grado_gb1_2019
 - siglas: ule
   nombre: Universidad de León
   tipo: pública
@@ -1320,78 +1580,15 @@ unis:
           centro: Escuela de Ingenierías Industrial e Informática
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2011/07/15/pdf/BOCYL-D-15072011-1.pdf
-              cantidades:
-                tasas1: 20.40
-                tasas2: 30.60
-                tasas3: 48.96
-                tasas4: 48.96
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2012/07/09/pdf/BOCYL-D-09072012-2.pdf
-              cantidades:
-                tasas1: 27.07
-                tasas2: 40.61
-                tasas3: 87.98
-                tasas4: 121.82
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2013/07/05/pdf/BOCYL-D-05072013-3.pdf
-              cantidades:
-                tasas1: 27.45
-                tasas2: 41.17
-                tasas3: 89.21
-                tasas4: 123.52
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
-              cantidades:
-                tasas1: 26.33
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
-              cantidades:
-                tasas1: 21.01
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
+            - *CyL_grado_gb1_2011
+            - *CyL_grado_gb1_2012
+            - *CyL_grado_gb1_2013
+            - *CyL_grado_gb1_2014
+            - *CyL_grado_gb1_2015
+            - *CyL_grado_gb1_2016
+            - *CyL_grado_gb1_2017
+            - *CyL_grado_gb1_2018
+            - *CyL_grado_gb1_2019
 - siglas: ubu
   nombre: Universidad de Burgos
   tipo: pública
@@ -1404,78 +1601,15 @@ unis:
           centro: Escuela Politécnica Superior
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2011/07/15/pdf/BOCYL-D-15072011-1.pdf
-              cantidades:
-                tasas1: 20.40
-                tasas2: 30.60
-                tasas3: 48.96
-                tasas4: 48.96
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2012/07/09/pdf/BOCYL-D-09072012-2.pdf
-              cantidades:
-                tasas1: 27.07
-                tasas2: 40.61
-                tasas3: 87.98
-                tasas4: 121.82
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2013/07/05/pdf/BOCYL-D-05072013-3.pdf
-              cantidades:
-                tasas1: 27.45
-                tasas2: 41.17
-                tasas3: 89.21
-                tasas4: 123.52
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2014/05/30/pdf/BOCYL-D-30052014-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2015/04/27/pdf/BOCYL-D-27042015-4.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2016/04/18/pdf/BOCYL-D-18042016-2.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2017/05/26/pdf/BOCYL-D-26052017-1.pdf
-              cantidades:
-                tasas1: 27.72
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2018/04/30/pdf/BOCYL-D-30042018-4.pdf
-              cantidades:
-                tasas1: 26.33
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: http://bocyl.jcyl.es/boletines/2019/01/25/pdf/BOCYL-D-25012019-2.pdf
-              cantidades:
-                tasas1: 21.01
-                tasas2: 41.59
-                tasas3: 90.10
-                tasas4: 124.76
+            - *CyL_grado_gb1_2011
+            - *CyL_grado_gb1_2012
+            - *CyL_grado_gb1_2013
+            - *CyL_grado_gb1_2014
+            - *CyL_grado_gb1_2015
+            - *CyL_grado_gb1_2016
+            - *CyL_grado_gb1_2017
+            - *CyL_grado_gb1_2018
+            - *CyL_grado_gb1_2019
 - siglas: uc
   nombre: Universidad de Cantabria
   tipo: pública
@@ -1574,78 +1708,15 @@ unis:
           web: http://www.esiiab.uclm.es/grado/datos.php?curso=2014-15&idmenup=datosgrado
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2011/06/15/pdf/2011_9178.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 15.40
-                tasas2: 20.00
-                tasas3: 28.00
-                tasas4: 42.00
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2012/07/17/pdf/2012_10376.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.53
-                tasas2: 37.07
-                tasas3: 80.31
-                tasas4: 111.20
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2013/07/15/pdf/2013_8830.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.79
-                tasas2: 37.58
-                tasas3: 81.43
-                tasas4: 112.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2014/07/14/pdf/2014_9138.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2015/04/24/pdf/2015_4939.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2016/06/23/pdf/2016_6794.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2017/06/19/pdf/2017_7333.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2018/07/13/pdf/2018_8259.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2019/06/07/pdf/2019_5512.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
+            - *ClM_grado_g4_2011
+            - *ClM_grado_g4_2012
+            - *ClM_grado_g4_2013
+            - *ClM_grado_g4_2014
+            - *ClM_grado_g4_2015
+            - *ClM_grado_g4_2016
+            - *ClM_grado_g4_2017
+            - *ClM_grado_g4_2018
+            - *ClM_grado_g4_2019
     - campus: Campus de Ciudad Real
       provincia: Ciudad Real
       titulaciones:
@@ -1654,78 +1725,15 @@ unis:
           web: http://webpub.esi.uclm.es/paginas/formacion-grado-en-ing-informatica-1
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2011/06/15/pdf/2011_9178.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 15.40
-                tasas2: 20.00
-                tasas3: 28.00
-                tasas4: 42.00
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2012/07/17/pdf/2012_10376.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.53
-                tasas2: 37.07
-                tasas3: 80.31
-                tasas4: 111.20
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2013/07/15/pdf/2013_8830.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.79
-                tasas2: 37.58
-                tasas3: 81.43
-                tasas4: 112.75
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2014/07/14/pdf/2014_9138.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2015/04/24/pdf/2015_4939.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2016/06/23/pdf/2016_6794.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2017/06/19/pdf/2017_7333.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2018/07/13/pdf/2018_8259.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2019/06/07/pdf/2019_5512.pdf&tipo=rutaDocm
-              cantidades:
-                tasas1: 18.87
-                tasas2: 37.73
-                tasas3: 81.76
-                tasas4: 113.20
+            - *ClM_grado_g4_2011
+            - *ClM_grado_g4_2012
+            - *ClM_grado_g4_2013
+            - *ClM_grado_g4_2014
+            - *ClM_grado_g4_2015
+            - *ClM_grado_g4_2016
+            - *ClM_grado_g4_2017
+            - *ClM_grado_g4_2018
+            - *ClM_grado_g4_2019
 - siglas: uex
   nombre: Universidad de Extremadura
   tipo: pública
@@ -1894,87 +1902,25 @@ unis:
 - siglas: udc
   nombre: Universidade da Coruña
   tipo: pública
-  web: http://www.fic.udc.es/MainPage.do
+  web: http://udc.es/
   lugares:
     - campus: Campus de Elviña
       provincia: A Coruña
       titulaciones:
         - tipo: grado
           centro: Facultade de Informática
+          web: http://www.fic.udc.es/MainPage.do
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2011/20110707/AnuncioC3F1-290611-3782_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 16.03
-                tasas3: 18.81
-                tasas4: 20.91
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2012/20120716/AnuncioG0164-120712-0005_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2013/20130802/AnuncioG0164-240713-0009_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2014/20140701/AnuncioG0164-260614-0003_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2015/20150702/AnuncioG0164-260615-0004_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.gal/dog/Publicados/2016/20160712/AnuncioG0164-010716-0003_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2017/20170714/AnuncioG0164-100717-0001_es.pdf
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2018/20180705/AnuncioG0164-270618-0001_es.pdf
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2019/20190711/AnuncioG0534-050719-0003_es.pdf
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
+            - *Galicia_grado_g2a_2011
+            - *Galicia_grado_g2a_2012
+            - *Galicia_grado_g2a_2013
+            - *Galicia_grado_g2a_2014
+            - *Galicia_grado_g2a_2015
+            - *Galicia_grado_g2a_2016
+            - *Galicia_grado_g2a_2017
+            - *Galicia_grado_g2a_2018
+            - *Galicia_grado_g2a_2019
 - siglas: usc
   nombre: Universidad de Santiago de Compostela
   tipo: pública
@@ -1987,78 +1933,15 @@ unis:
           centro: Escola Técnica Superior de Enxeñaría
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2011/20110707/AnuncioC3F1-290611-3782_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 16.03
-                tasas3: 18.81
-                tasas4: 20.91
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2012/20120716/AnuncioG0164-120712-0005_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2013/20130802/AnuncioG0164-240713-0009_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2014/20140701/AnuncioG0164-260614-0003_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2015/20150702/AnuncioG0164-260615-0004_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.gal/dog/Publicados/2016/20160712/AnuncioG0164-010716-0003_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2017/20170714/AnuncioG0164-100717-0001_es.pdf
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2018/20180705/AnuncioG0164-270618-0001_es.pdf
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2019/20190711/AnuncioG0534-050719-0003_es.pdf
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
+            - *Galicia_grado_g2a_2011
+            - *Galicia_grado_g2a_2012
+            - *Galicia_grado_g2a_2013
+            - *Galicia_grado_g2a_2014
+            - *Galicia_grado_g2a_2015
+            - *Galicia_grado_g2a_2016
+            - *Galicia_grado_g2a_2017
+            - *Galicia_grado_g2a_2018
+            - *Galicia_grado_g2a_2019
 - siglas: uvigo
   nombre: Universidad de Vigo
   tipo: pública
@@ -2071,78 +1954,15 @@ unis:
           centro: Escuela Superior de Ingeniería Informática
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2011/20110707/AnuncioC3F1-290611-3782_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 16.03
-                tasas3: 18.81
-                tasas4: 20.91
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2012/20120716/AnuncioG0164-120712-0005_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2013/20130802/AnuncioG0164-240713-0009_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2014/20140701/AnuncioG0164-260614-0003_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.es/dog/Publicados/2015/20150702/AnuncioG0164-260615-0004_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://www.xunta.gal/dog/Publicados/2016/20160712/AnuncioG0164-010716-0003_es.html
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2017/20170714/AnuncioG0164-100717-0001_es.pdf
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2018/20180705/AnuncioG0164-270618-0001_es.pdf
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://www.xunta.gal/dog/Publicados/2019/20190711/AnuncioG0534-050719-0003_es.pdf
-              cantidades:
-                tasas1: 13.93
-                tasas2: 19.30
-                tasas3: 31.21
-                tasas4: 39.79
+            - *Galicia_grado_g2a_2011
+            - *Galicia_grado_g2a_2012
+            - *Galicia_grado_g2a_2013
+            - *Galicia_grado_g2a_2014
+            - *Galicia_grado_g2a_2015
+            - *Galicia_grado_g2a_2016
+            - *Galicia_grado_g2a_2017
+            - *Galicia_grado_g2a_2018
+            - *Galicia_grado_g2a_2019
 - siglas: ucm
   nombre: Universidad Complutense de Madrid
   tipo: pública
@@ -2155,46 +1975,11 @@ unis:
           centro: Facultad de Informática
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.emes.es/linkclick.aspx?fileticket=YaVrLQAAmHk%3D&tabid=46&mid=355&forcedownload=true&name=d_95-2011.pdf
-              cantidades:
-                tasas1: 17.01
-                tasas2: 21.26
-                tasas3: 28.91
-                tasas4: 34.02
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=7758&cdestado=P
-              cantidades:
-                tasas1: 26.81
-                tasas2: 47.61
-                tasas3: 89.28
-                tasas4: 119.04
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=8216&cdestado=P
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.85
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://w3.bocm.es/boletin/CM_Orden_BOCM/2014/07/21/BOCM-20140721-5.PDF
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.82
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.bocm.es/boletin/CM_Orden_BOCM/2015/08/03/BOCM-20150803-15.PDF
-              cantidades:
-                tasas1: 27.90
-                tasas2: 51.42
-                tasas3: 96.43
-                tasas4: 128.57
+            - *Madrid_grado_g2_2011
+            - *Madrid_grado_g2_2012
+            - *Madrid_grado_g2_2013
+            - *Madrid_grado_g2_2014
+            - *Madrid_grado_g2_2015
 - siglas: urjc
   nombre: Universidad Rey Juan Carlos
   tipo: pública
@@ -2207,46 +1992,11 @@ unis:
           centro: Escuela Técnica Superior de Ingeniería Informática
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.emes.es/linkclick.aspx?fileticket=YaVrLQAAmHk%3D&tabid=46&mid=355&forcedownload=true&name=d_95-2011.pdf
-              cantidades:
-                tasas1: 17.01
-                tasas2: 21.26
-                tasas3: 28.91
-                tasas4: 34.02
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=7758&cdestado=P
-              cantidades:
-                tasas1: 26.81
-                tasas2: 47.61
-                tasas3: 89.28
-                tasas4: 119.04
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=8216&cdestado=P
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.85
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://w3.bocm.es/boletin/CM_Orden_BOCM/2014/07/21/BOCM-20140721-5.PDF
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.82
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.bocm.es/boletin/CM_Orden_BOCM/2015/08/03/BOCM-20150803-15.PDF
-              cantidades:
-                tasas1: 27.90
-                tasas2: 51.42
-                tasas3: 96.43
-                tasas4: 128.57
+            - *Madrid_grado_g2_2011
+            - *Madrid_grado_g2_2012
+            - *Madrid_grado_g2_2013
+            - *Madrid_grado_g2_2014
+            - *Madrid_grado_g2_2015
 - siglas: uc3m
   nombre: Universidad Carlos III
   tipo: pública
@@ -2259,46 +2009,11 @@ unis:
           centro: Escuela Universitaria de Informática
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.emes.es/linkclick.aspx?fileticket=YaVrLQAAmHk%3D&tabid=46&mid=355&forcedownload=true&name=d_95-2011.pdf
-              cantidades:
-                tasas1: 17.01
-                tasas2: 21.26
-                tasas3: 28.91
-                tasas4: 34.02
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=7758&cdestado=P
-              cantidades:
-                tasas1: 26.81
-                tasas2: 47.61
-                tasas3: 89.28
-                tasas4: 119.04
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=8216&cdestado=P
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.85
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://w3.bocm.es/boletin/CM_Orden_BOCM/2014/07/21/BOCM-20140721-5.PDF
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.82
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.bocm.es/boletin/CM_Orden_BOCM/2015/08/03/BOCM-20150803-15.PDF
-              cantidades:
-                tasas1: 27.90
-                tasas2: 51.42
-                tasas3: 96.43
-                tasas4: 128.57
+            - *Madrid_grado_g2_2011
+            - *Madrid_grado_g2_2012
+            - *Madrid_grado_g2_2013
+            - *Madrid_grado_g2_2014
+            - *Madrid_grado_g2_2015
 - siglas: uam
   nombre: Universidad Autónoma de Madrid
   tipo: pública
@@ -2311,46 +2026,11 @@ unis:
           centro: Escuela Politécnica Superior
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.emes.es/linkclick.aspx?fileticket=YaVrLQAAmHk%3D&tabid=46&mid=355&forcedownload=true&name=d_95-2011.pdf
-              cantidades:
-                tasas1: 17.01
-                tasas2: 21.26
-                tasas3: 28.91
-                tasas4: 34.02
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=7758&cdestado=P
-              cantidades:
-                tasas1: 26.81
-                tasas2: 47.61
-                tasas3: 89.28
-                tasas4: 119.04
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=8216&cdestado=P
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.85
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://w3.bocm.es/boletin/CM_Orden_BOCM/2014/07/21/BOCM-20140721-5.PDF
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.82
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.bocm.es/boletin/CM_Orden_BOCM/2015/08/03/BOCM-20150803-15.PDF
-              cantidades:
-                tasas1: 27.90
-                tasas2: 51.42
-                tasas3: 96.43
-                tasas4: 128.57
+            - *Madrid_grado_g2_2011
+            - *Madrid_grado_g2_2012
+            - *Madrid_grado_g2_2013
+            - *Madrid_grado_g2_2014
+            - *Madrid_grado_g2_2015
 - siglas: uah
   nombre: Universidad de Alcalá
   tipo: pública
@@ -2363,46 +2043,11 @@ unis:
           centro: Escuela Politécnica Superior
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.emes.es/linkclick.aspx?fileticket=YaVrLQAAmHk%3D&tabid=46&mid=355&forcedownload=true&name=d_95-2011.pdf
-              cantidades:
-                tasas1: 17.01
-                tasas2: 21.26
-                tasas3: 28.91
-                tasas4: 34.02
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=7758&cdestado=P
-              cantidades:
-                tasas1: 26.81
-                tasas2: 47.61
-                tasas3: 89.28
-                tasas4: 119.04
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=8216&cdestado=P
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.85
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://w3.bocm.es/boletin/CM_Orden_BOCM/2014/07/21/BOCM-20140721-5.PDF
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.82
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.bocm.es/boletin/CM_Orden_BOCM/2015/08/03/BOCM-20150803-15.PDF
-              cantidades:
-                tasas1: 27.90
-                tasas2: 51.42
-                tasas3: 96.43
-                tasas4: 128.57
+            - *Madrid_grado_g2_2011
+            - *Madrid_grado_g2_2012
+            - *Madrid_grado_g2_2013
+            - *Madrid_grado_g2_2014
+            - *Madrid_grado_g2_2015
 - siglas: upm
   nombre: Universidad Politécnica de Madrid
   tipo: pública
@@ -2416,46 +2061,11 @@ unis:
           web: http://www.upm.es/institucional/Estudiantes/Estudios_Titulaciones/EstudiosOficialesGrado/ArticulosRelacionados/b4fa8093d2320210VgnVCM10000009c7648aRCRD
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.emes.es/linkclick.aspx?fileticket=YaVrLQAAmHk%3D&tabid=46&mid=355&forcedownload=true&name=d_95-2011.pdf
-              cantidades:
-                tasas1: 17.01
-                tasas2: 21.26
-                tasas3: 28.91
-                tasas4: 34.02
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=7758&cdestado=P
-              cantidades:
-                tasas1: 26.81
-                tasas2: 47.61
-                tasas3: 89.28
-                tasas4: 119.04
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=8216&cdestado=P
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.85
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://w3.bocm.es/boletin/CM_Orden_BOCM/2014/07/21/BOCM-20140721-5.PDF
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.82
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.bocm.es/boletin/CM_Orden_BOCM/2015/08/03/BOCM-20150803-15.PDF
-              cantidades:
-                tasas1: 27.90
-                tasas2: 51.42
-                tasas3: 96.43
-                tasas4: 128.57
+            - *Madrid_grado_g2_2011
+            - *Madrid_grado_g2_2012
+            - *Madrid_grado_g2_2013
+            - *Madrid_grado_g2_2014
+            - *Madrid_grado_g2_2015
     - campus: Campus Sur
       provincia: Madrid
       titulaciones:
@@ -2464,46 +2074,11 @@ unis:
           web: http://www.upm.es/institucional/UPM/Centros/CampusSur/ETSISistemasInformaticos
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.emes.es/linkclick.aspx?fileticket=YaVrLQAAmHk%3D&tabid=46&mid=355&forcedownload=true&name=d_95-2011.pdf
-              cantidades:
-                tasas1: 17.01
-                tasas2: 21.26
-                tasas3: 28.91
-                tasas4: 34.02
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=7758&cdestado=P
-              cantidades:
-                tasas1: 26.81
-                tasas2: 47.61
-                tasas3: 89.28
-                tasas4: 119.04
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.madrid.org/wleg/servlet/Servidor?opcion=VerHtml&nmnorma=8216&cdestado=P
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.85
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://w3.bocm.es/boletin/CM_Orden_BOCM/2014/07/21/BOCM-20140721-5.PDF
-              cantidades:
-                tasas1: 31.00
-                tasas2: 57.13
-                tasas3: 107.14
-                tasas4: 142.82
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.bocm.es/boletin/CM_Orden_BOCM/2015/08/03/BOCM-20150803-15.PDF
-              cantidades:
-                tasas1: 27.90
-                tasas2: 51.42
-                tasas3: 96.43
-                tasas4: 128.57
+            - *Madrid_grado_g2_2011
+            - *Madrid_grado_g2_2012
+            - *Madrid_grado_g2_2013
+            - *Madrid_grado_g2_2014
+            - *Madrid_grado_g2_2015
 - siglas: ceu
   nombre: Universidad CEU San Pablo
   tipo: privada
@@ -2902,78 +2477,15 @@ unis:
           web: https://www.ehu.eus/es/web/informatika-fakultatea
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2011/07/1103564a.pdf
-              cantidades:
-                tasas1: 18.29
-                tasas2: 21.59
-                tasas3: 21.59
-                tasas4: 21.59
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2012/07/1203198a.pdf
-              cantidades:
-                tasas1: 18.66
-                tasas2: 22.67
-                tasas3: 28.56
-                tasas4: 28.56
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2013/07/1303184a.pdf
-              cantidades:
-                tasas1: 19.11
-                tasas2: 24.03
-                tasas3: 31.99
-                tasas4: 31.99
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.net/r48-bopv2/es/bopv2/datos/2014/07/1403173a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.jusap.ejgv.euskadi.eus/r47-bopvapps/es/bopv2/datos/2015/07/1503138a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 42.53
-                tasas4: 58.87
+            - *PV_grado_g2_2011
+            - *PV_grado_g2_2012
+            - *PV_grado_g2_2013
+            - *PV_grado_g2_2014
+            - *PV_grado_g2_2015
+            - *PV_grado_g2_2016
+            - *PV_grado_g2_2017
+            - *PV_grado_g2_2018
+            - *PV_grado_g2_2019
     - campus: Campus de Álava
       provincia: Álava
       titulaciones:
@@ -2982,78 +2494,15 @@ unis:
           web: http://www.ehu.eus/es/web/ingeniaritza-gasteiz/kudeaketaren-eta-informazio-sistemen-informatikaren-ingeniaritzako-gradua
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2011/07/1103564a.pdf
-              cantidades:
-                tasas1: 18.29
-                tasas2: 21.59
-                tasas3: 21.59
-                tasas4: 21.59
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2012/07/1203198a.pdf
-              cantidades:
-                tasas1: 18.66
-                tasas2: 22.67
-                tasas3: 28.56
-                tasas4: 28.56
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2013/07/1303184a.pdf
-              cantidades:
-                tasas1: 19.11
-                tasas2: 24.03
-                tasas3: 31.99
-                tasas4: 31.99
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.net/r48-bopv2/es/bopv2/datos/2014/07/1403173a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.jusap.ejgv.euskadi.eus/r47-bopvapps/es/bopv2/datos/2015/07/1503138a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 42.53
-                tasas4: 58.87
+            - *PV_grado_g2_2011
+            - *PV_grado_g2_2012
+            - *PV_grado_g2_2013
+            - *PV_grado_g2_2014
+            - *PV_grado_g2_2015
+            - *PV_grado_g2_2016
+            - *PV_grado_g2_2017
+            - *PV_grado_g2_2018
+            - *PV_grado_g2_2019
     - campus: Campus de Bizkaia
       provincia: Bizkaia
       titulaciones:
@@ -3062,78 +2511,15 @@ unis:
           web: https://www.ehu.eus/es/web/ingenieria-tecnica-bilbao/kudeaketaren-eta-informazio-sistemen-informatikaren-ingeniaritzako-gradua
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2011/07/1103564a.pdf
-              cantidades:
-                tasas1: 18.29
-                tasas2: 21.59
-                tasas3: 21.59
-                tasas4: 21.59
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2012/07/1203198a.pdf
-              cantidades:
-                tasas1: 18.66
-                tasas2: 22.67
-                tasas3: 28.56
-                tasas4: 28.56
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.lehendakaritza.ejgv.euskadi.net/r48-vacia/es/bopv2/datos/2013/07/1303184a.pdf
-              cantidades:
-                tasas1: 19.11
-                tasas2: 24.03
-                tasas3: 31.99
-                tasas4: 31.99
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.net/r48-bopv2/es/bopv2/datos/2014/07/1403173a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://www.jusap.ejgv.euskadi.eus/r47-bopvapps/es/bopv2/datos/2015/07/1503138a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2016/07/1603100a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2017/06/1703318a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2018
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2018/07/1803409a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 41.59
-                tasas4: 41.59
-            - año: 2019
-              tipo: precio_por_crédito
-              fuente: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2019/06/1903099a.pdf
-              cantidades:
-                tasas1: 19.19
-                tasas2: 27.63
-                tasas3: 42.53
-                tasas4: 58.87
+            - *PV_grado_g2_2011
+            - *PV_grado_g2_2012
+            - *PV_grado_g2_2013
+            - *PV_grado_g2_2014
+            - *PV_grado_g2_2015
+            - *PV_grado_g2_2016
+            - *PV_grado_g2_2017
+            - *PV_grado_g2_2018
+            - *PV_grado_g2_2019
 - siglas: upna
   nombre: Universidad Pública de Navarra
   tipo: pública
@@ -3221,89 +2607,25 @@ unis:
 - siglas: ur
   nombre: Universidad de La Rioja
   tipo: pública
-  web: http://www.unirioja.es/estudios/grados/ing_informatica/
+  web: http://www.unirioja.es
   lugares:
     - campus: Campus de La Rioja
       provincia: La Rioja
       titulaciones:
         - tipo: grado
           centro: Facultad de Ciencias, Estudios Agroalimentarios e Informática
+          web: http://www.unirioja.es/estudios/grados/ing_informatica/
           titulación: Grado en Ingeniería Informática
           tasas:
-            - año: 2011
-              tipo: precio_por_crédito
-              fuente: http://www.larioja.org/npRioja/default/defaultpage.jsp?idtab=724659&tipo=2&fecha=2011/08/31&referencia=897312-1-HTML-437659-X
-              cantidades:
-                tasas1: 23.13
-                tasas2: 33.55
-                tasas3: 50.32
-                tasas4: 50.32
-            - año: 2012
-              tipo: precio_por_crédito
-              fuente: http://www.larioja.org/npRioja/default/defaultpage.jsp?idtab=724659&tipo=2&fecha=2012/09/07&referencia=957080-3-HTML-453897-X
-              cantidades:
-                tasas1: 20.90
-                tasas2: 41.80
-                tasas3: 90.57
-                tasas4: 125.40
-            - año: 2013
-              tipo: precio_por_crédito
-              fuente: http://www.unirioja.es/estudiantes/matricula/precios.shtml
-              cantidades:
-                tasas1: 21.21
-                tasas2: 42.43
-                tasas3: 91.93
-                tasas4: 127.28
-            - año: 2014
-              tipo: precio_por_crédito
-              fuente: http://www.unirioja.es/estudiantes/matricula/precios.shtml
-              cantidades:
-                tasas1: 21.21
-                tasas2: 42.43
-                tasas3: 91.93
-                tasas4: 127.28
-            - año: 2015
-              tipo: precio_por_crédito
-              fuente: http://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=2542287-1-PDF-495971
-              cantidades:
-                tasas1: 21.21
-                tasas2: 42.43
-                tasas3: 91.93
-                tasas4: 127.28
-            - año: 2016
-              tipo: precio_por_crédito
-              fuente: http://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=3837390-1-PDF-504204
-              cantidades:
-                tasas1: 21.21
-                tasas2: 42.43
-                tasas3: 91.93
-                tasas4: 127.28
-            - año: 2017
-              tipo: precio_por_crédito
-              fuente: https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=6083985-1-PDF-512440-X
-              cantidades:
-                tasas1: 21.21
-                tasas2: 42.43
-                tasas3: 91.93
-                tasas4: 127.28
-            - año: 2018
-              tipo: precio_por_crédito
-              comentario: No se ha publicado Boletín nuevo #TODO: revisar si es cierto
-              fuente: https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=6083985-1-PDF-512440-X
-              cantidades:
-                tasas1: 21.21
-                tasas2: 42.43
-                tasas3: 91.93
-                tasas4: 127.28
-            - año: 2019
-              tipo: precio_por_crédito
-              comentario: No se ha publicado Boletín nuevo #TODO: revisar si es cierto
-              fuente: https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=6083985-1-PDF-512440-X
-              cantidades:
-                tasas1: 21.21
-                tasas2: 42.43
-                tasas3: 91.93
-                tasas4: 127.28
+            - *LaRioja_grado_g2_2011
+            - *LaRioja_grado_g2_2012
+            - *LaRioja_grado_g2_2013
+            - *LaRioja_grado_g2_2014
+            - *LaRioja_grado_g2_2015
+            - *LaRioja_grado_g2_2016
+            - *LaRioja_grado_g2_2017
+            - *LaRioja_grado_g2_2018
+            - *LaRioja_grado_g2_2019
 - siglas: unir
   nombre: Universidad Internacional de La Rioja
   tipo: privada
