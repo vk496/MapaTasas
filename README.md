@@ -1,10 +1,18 @@
 # MapaTasas
 
-Versión en producción del Mapa de Tasas. Proyecto solo de mantenimiento de datos del JSON de Universidades.
+Comparativa de precios universitarios del territorio español.
 
-El paquete requiere de las siguientes dependencias:
+Los navegadores utilizan estrictas políticas de permisos para prevenir que puedas leer archivos del sistema de ficheros. Para visualizar localmente el proyecto, debes acceder a través de un servidor web. Por ejemplo:
 
-*nodejs con npm
-*bower
-*grunt-cli
-*Python 3.4 (previsto soporte para 2.7), pip, virtualenv y python-dev en sistemas que no incluyan los ficheros de cabecera de Python
+```bash
+npm install -g http-server
+http-server
+```
+
+Para validr los datos de `unis.yaml` contra el esquema, necesitamos el paquete de python3 `pykwalify` y ejecutar:
+
+```bash
+pykwalify -s data/uni/schema.yaml -d data/uni/unis.yaml -e data/uni/extensions.py
+```
+
+Para poder visualizarlo: https://vk496.github.io/MapaTasas/
