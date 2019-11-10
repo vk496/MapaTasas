@@ -5,9 +5,18 @@ addons:
     packages:
       - python3-pip
       - python3-setuptools
+      - npm
 
 before_script:
   - pip3 install pykwalify
+  - npm install -g js-beautify
 
-script:
-  - pykwalify -s data/uni/schema.yaml -d data/uni/unis.yaml -e data/uni/extensions.py
+jobs:
+  include:
+    - stage: "Tests"
+      name: "Schema Validation"
+      script: pykwalify -s data/uni/schema.yaml -d data/uni/unis.yaml -e data/uni/extensions.py
+    - name: "Format Validation"
+      script: 
+        - for i in html js css; do find . -type f -name "*.$i" -exec js-beautify --type $i -r {} \; ; done
+        - git diff --exit-code

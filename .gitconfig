@@ -1,0 +1,9 @@
+[filter "format-html"]
+        clean = js-beautify --type html
+        smudge = cat
+[filter "format-css"]
+        clean = js-beautify --type css
+        smudge = cat
+[filter "format-js"]
+        clean = js-beautify --type js
+        smudge = cat

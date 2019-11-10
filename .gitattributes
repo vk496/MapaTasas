@@ -1,0 +1,3 @@
+*.html filter=format-html
+*.css filter=format-css
+*.js filter=format-js
