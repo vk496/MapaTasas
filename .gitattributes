@@ -1,3 +1,6 @@
+# Install npm package and execute:
+# npm install -g js-beautifier
+# git config --local include.path ../.gitconfig
 *.html filter=format-html
 *.css filter=format-css
 *.js filter=format-js

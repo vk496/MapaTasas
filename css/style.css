@@ -1,8 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Play);
 
-html , body{
+html,
+body {
     background-color: #5c4c4c;
 }
+
 body {
     font-family: 'Play', sans-serif;
     font-style: normal;
@@ -15,14 +17,14 @@ body {
     width: 15%;
 }
 
-#texto{
+#texto {
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
     width: 65%;
 }
 
-.logo{
+.logo {
     margin-left: auto;
     margin-right: auto;
 }
@@ -44,6 +46,7 @@ body {
     /*stroke-dasharray: 2,2;
     stroke-linejoin: round;*/
 }
+
 .subunit-boundary {
     fill: none;
     stroke-dasharray: 2, 2;
@@ -57,6 +60,7 @@ body {
     padding: 5px;
     z-index: 100000;
 }
+
 .tipsy-inner {
     background-color: #000;
     color: #FFF;
@@ -64,6 +68,7 @@ body {
     padding: 5px 8px 4px 8px;
     text-align: center;
 }
+
 /* Rounded corners */
 
 .tipsy-inner {
@@ -79,6 +84,7 @@ body {
     -moz-box-shadow: 0 0 5px #000000;
     box-shadow: 0 0 5px #000000;
 }
+
 .tipsy-arrow {
     position: absolute;
     width: 0;
@@ -92,15 +98,19 @@ body {
 .tipsy-arrow-n {
     border-bottom-color: #000;
 }
+
 .tipsy-arrow-s {
     border-top-color: #000;
 }
+
 .tipsy-arrow-e {
     border-left-color: #000;
 }
+
 .tipsy-arrow-w {
     border-right-color: #000;
 }
+
 .tipsy-n .tipsy-arrow {
     top: 0;
     left: 50%;
@@ -110,6 +120,7 @@ body {
     border-left-color: transparent;
     border-right-color: transparent;
 }
+
 .tipsy-nw .tipsy-arrow {
     top: 0;
     left: 10px;
@@ -118,6 +129,7 @@ body {
     border-left-color: transparent;
     border-right-color: transparent;
 }
+
 .tipsy-ne .tipsy-arrow {
     top: 0;
     right: 10px;
@@ -126,6 +138,7 @@ body {
     border-left-color: transparent;
     border-right-color: transparent;
 }
+
 .tipsy-s .tipsy-arrow {
     bottom: 0;
     left: 50%;
@@ -135,6 +148,7 @@ body {
     border-left-color: transparent;
     border-right-color: transparent;
 }
+
 .tipsy-sw .tipsy-arrow {
     bottom: 0;
     left: 10px;
@@ -143,6 +157,7 @@ body {
     border-left-color: transparent;
     border-right-color: transparent;
 }
+
 .tipsy-se .tipsy-arrow {
     bottom: 0;
     right: 10px;
@@ -151,6 +166,7 @@ body {
     border-left-color: transparent;
     border-right-color: transparent;
 }
+
 .tipsy-e .tipsy-arrow {
     right: 0;
     top: 50%;
@@ -160,6 +176,7 @@ body {
     border-top-color: transparent;
     border-bottom-color: transparent;
 }
+
 .tipsy-w .tipsy-arrow {
     left: 0;
     top: 50%;
@@ -183,13 +200,14 @@ body {
 .panel-primary {
     border-color: #da2724;
 }
+
 .panel-primary>.panel-heading {
     background-color: #da2724;
     border-color: #da2724;
 }
 
 
-#banner{
+#banner {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -222,73 +240,80 @@ body {
     cursor: pointer;
 }
 
-.table-user-information > tbody > tr {
+.table-user-information>tbody>tr {
     border-top: 1px solid rgb(221, 221, 221);
 }
 
-.table-user-information > tbody > tr:first-child {
+.table-user-information>tbody>tr:first-child {
     border-top: 0;
 }
 
 
-.table-user-information > tbody > tr > td {
+.table-user-information>tbody>tr>td {
     border-top: 0;
 }
 
-.foto-uni{
+.foto-uni {
     max-width: 50px;
     max-height: 50px;
     min-width: 40px;
     width: 100%;
 }
 
-#map-canarias{
-  border-top: 1px solid #da2724;
-  border-left: 1px solid #da2724;
+#map-canarias {
+    border-top: 1px solid #da2724;
+    border-left: 1px solid #da2724;
 }
-#urls{
+
+#urls {
     margin-right: 3px;
     margin-left: 3px;
 }
-#urls>p{
+
+#urls>p {
     color: #da2724;
 }
-.referencia{
-    color:#da2724;
-}
-.referencia:hover{
-    color:#da2724;
+
+.referencia {
+    color: #da2724;
 }
 
-#banner{
+.referencia:hover {
+    color: #da2724;
+}
+
+#banner {
     width: 100%;
     min-height: 104px;
 }
-.tabs-content{
+
+.tabs-content {
     clear: both;
     width: fit-content;
     display: table;
     margin: 0 auto;
 }
 
-#lista_unis{
-    max-width: 100%;
-}
-#maps{
+#lista_unis {
     max-width: 100%;
 }
 
-ul{
+#maps {
+    max-width: 100%;
+}
+
+ul {
     border: 2px solid;
     border-color: white;
     border-radius: 5px;
 }
 
-ul.tabs{
+ul.tabs {
     padding: 0;
     list-style: none;
 }
-ul.tabs li{
+
+ul.tabs li {
     background: none;
     color: white;
     display: inline-block;
@@ -296,7 +321,7 @@ ul.tabs li{
     cursor: pointer;
 }
 
-ul.tabs li.current{
+ul.tabs li.current {
     background: #ededed;
     color: #222;
 }
@@ -319,5 +344,5 @@ ul.tabs li.current{
 }
 
 .uni-tipo.Pública {
-    background-color: rgba(117, 145, 255, 0.33); 
+    background-color: rgba(117, 145, 255, 0.33);
 }
