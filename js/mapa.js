@@ -70,11 +70,68 @@ $(document).ready(function() {
     var indexes = ['tasas_2011', 'tasas_2012', 'tasas_2013', 'tasas_2014', 'tasas_2015'];
     var average = {},
         avCount = {};
+    var dict_titulac = new Map();
+
 
     indexes.forEach(function(index) {
         average[index] = 0;
         avCount[index] = 0;
     });
+
+    var yml_doc;
+
+    $.get('data/uni/unis.yaml')
+        .done(function(data) {
+            yml_doc = jsyaml.safeLoad(data);
+            //por cada uni
+            yml_doc.unis.forEach(function(uni) {
+                //Por cada campus
+
+                if (uni.tipo == "pública") {
+
+                    uni.lugares.forEach(function(campus) {
+                        campus.titulaciones.forEach(function(tit) {
+
+                            if (!dict_titulac.has(tit.titulación)) {
+                                dict_titulac.set(tit.titulación, new Map());
+                            }
+
+                            tit.tasas.forEach(function(tasa) {
+                                if (tasa['cantidades'] && tasa['cantidades']['tasas1']) {
+
+                                    var tit_avg = dict_titulac.get(tit.titulación);
+
+                                    var sumatorio, nums;
+                                    if (!tit_avg.has(tasa['año'])) {
+                                        tit_avg.set(tasa['año'], {
+                                            avg: 0,
+                                            num: 0
+                                        });
+                                    }
+
+                                    sumatorio = tit_avg.get(tasa['año'])['avg'];
+                                    nums = tit_avg.get(tasa['año'])['num'];
+
+                                    tit_avg.set(tasa['año'], {
+                                        avg: sumatorio += tasa['cantidades']['tasas1'],
+                                        num: nums++
+                                    });
+
+                                    dict_titulac.set(tit.titulación, tit_avg);
+                                }
+
+                            })
+                        })
+                    })
+
+                }
+            })
+
+            print(dict_titulac);
+
+        });
+
+
 
     // Si se pone a true, faltan datos de tasas de algún centro
     var avError = false;
@@ -99,6 +156,8 @@ $(document).ready(function() {
                 average[index] = 0;
         });
     });
+
+
 
     function sizeChange() {
         //Intento de diseño para móviles

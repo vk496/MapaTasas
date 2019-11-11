@@ -128,6 +128,7 @@ mapping:
                           "titulación":
                             type: str
                             req: true
+                            enum: [Grado en Ingeniería Informática]
                           "convenios":
                             type: map
                             allowempty: True
